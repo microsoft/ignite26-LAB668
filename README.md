@@ -32,10 +32,12 @@ Fill in the sections below yourself, then:
 
 # [Microsoft Ignite 2026](https://ignite.microsoft.com)
 
-## 🔥LAB666: Using apps and agents together in Copilot Studio
+## 🔥LAB666: Host apps from anywhere with the new Copilot Managed Runtime
 ### Session description
 
-Add your session description here. Keep it concise — 2-3 sentences about what attendees will learn and why it matters.
+Get hands-on with Copilot Managed Runtime and learn how to bring apps built with Microsoft and third-party tools into a managed enterprise environment. You’ll deploy and run an app, explore different entry points, and see how the runtime provides the connectivity and management needed to take AI-generated code from prototype to enterprise use.
+
+**Delivery links:** Pending — session and slide deck links are not available yet.
 
 ### 🚀 Getting started
 
@@ -61,15 +63,17 @@ If you're learning at your own pace:
 
 By the end of this session, you will be able to:
 
-- Outcome 1
-- Outcome 2
-- Outcome 3
+- Configure Copilot Managed Runtime to bring apps built with Microsoft and third-party tools into a managed enterprise environment.
+- Deploy and run an app in Copilot Managed Runtime and explore different entry points.
+- Describe how the runtime's connectivity and management capabilities help move code from prototype to enterprise use.
 
 ### 💻 Technologies used
 
-- Technology 1
-- Technology 2
-- Technology 3
+- Copilot Studio
+- Cowork
+- Code
+- Copilot Managed Runtime (SDK and CLI)
+- M365
 
 ### 📚 Continue your learning
 
@@ -101,17 +105,17 @@ For more information, visit the [Learn MCP Server repo](https://aka.ms/learnmcp)
 
 ### 👥 Content owners
 
-<!-- TODO: Add yourself as a content owner
-1. Change the src in the image tag to {your github url}.png
-2. Change INSERT NAME HERE to your name
-3. Change the github url in the final href to your url. -->
-
 <table>
 <tr>
-    <td align="center"><a href="http://github.com/yourGitHubHandle">
-        <img src="https://github.com/yourGitHubHandle.png" width="100px;" alt="INSERT NAME HERE"/><br />
-        <sub><b>INSERT NAME HERE</b></sub></a><br />
-            <a href="https://github.com/yourGitHubHandle" title="talk">📢</a>
+    <td align="center"><a href="https://github.com/laskewitz">
+        <img src="https://github.com/laskewitz.png" width="100px;" alt="Daniel Laskewitz"/><br />
+        <sub><b>Daniel Laskewitz</b></sub></a><br />
+            <a href="https://github.com/laskewitz" title="talk">📢</a>
+    </td>
+    <td align="center"><a href="https://github.com/aprildunnam">
+        <img src="https://github.com/aprildunnam.png" width="100px;" alt="April Dunnam"/><br />
+        <sub><b>April Dunnam</b></sub></a><br />
+            <a href="https://github.com/aprildunnam" title="talk">📢</a>
     </td>
 </tr></table>
 
