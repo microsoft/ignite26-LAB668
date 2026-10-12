@@ -87,7 +87,7 @@ For more information, visit the [Learn MCP Server repo](https://aka.ms/learnmcp)
     <td align="center"><a href="https://github.com/flow-joe">
         <img src="https://github.com/flow-joe.png" width="100px;" alt="Joe Unwin"/><br />
         <sub><b>Joe Unwin</b></sub></a><br />
-            <a href="https://github.com/flow-joe" title="talk">📢</a>
+            <a href="https://github.com/flow-joe" title="talk">💡</a>
     </td>
 </tr></table>
 
