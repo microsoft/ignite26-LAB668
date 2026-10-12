@@ -39,8 +39,8 @@ By the end of this session, you will be able to:
 ### 💻 Technologies used
 
 - Copilot Studio
-- Cowork
-- Code
+- Copilot Cowork
+- Copilot Code
 - Copilot Managed Runtime (SDK and CLI)
 - M365
 
