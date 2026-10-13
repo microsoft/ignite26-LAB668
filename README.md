@@ -53,7 +53,7 @@ Pick your next step based on your learning style:
 | **[Ignite 2026 Next Steps](https://aka.ms/ignite26-next-steps)** | Additional session repos and materials from Microsoft Ignite 2026 |
 | **[Microsoft AI Skills Navigator](https://aka.ms/ignite26-asn)** | Discover AI skills, learning paths, and resources for your next step |
 | **[Microsoft Learn](https://aka.ms/ignite26-learn)** | Official documentation and guided learning paths on these topics |
-| **[Microsoft Foundry Community](https://aka.ms/MicrosoftFoundryDiscord-Ignite26)** | Connect with other learners and experts in our Discord community |
+| **[Microsoft Copilot Managed Runtime Blogpost](https://aka.ms/CopilotManagedRuntime-Blog)** | Review the launch blog of Copilot Managed Runtime |
 
 ### 🌟 Microsoft Learn MCP Server
 
