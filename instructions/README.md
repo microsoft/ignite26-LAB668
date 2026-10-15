@@ -27,7 +27,7 @@ Times are elapsed minutes from the start of the session.
 | Time | Minutes | Activity |
 | --- | ---: | --- |
 | 00–08 | 8 | Sign in, access check, and introduction |
-| 03–23 | 15 | Exercise 1: Cowork create, test, publish, iterate, and republish |
+| 03–23 | 15 | Overview |
 | 23–43 | 20 | Exercise 1: Cowork create, test, publish, iterate, and republish |
 | 43–63 | 20 | Exercise 2: Copilot Studio create, test, and publish |
 | 63–68 | 5 | Hosted access/sharing check, SDK/CLI bridge, administration |
