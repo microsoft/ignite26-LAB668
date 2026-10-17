@@ -50,13 +50,13 @@ Do not sign in with another tenant or grant new permissions to work around a fai
 
 Create a fictional employee onboarding checklist. Use role labels, not real employee information. Both apps use the same fixture so you can focus on authoring and hosting rather than inventing requirements.
 
-Use the title **LAB666 Onboarding — Cowork** or **LAB666 Onboarding — Studio**.
+Use the title +++LAB666 Onboarding — Cowork+++ or +++LAB666 Onboarding — Studio+++.
 
 ### App brief
 
-Paste this prompt, that's an app brief into the app-creation experience, with the JSON demo data fixture below. Add the entry-point sentence shown in each exercise.
+Copy and paste this app brief into the app-creation experience, along with the JSON demo data fixture below. Add the short entry-point sentence shown in each exercise by typing it.
 
-```text
+++
 Create a supported interactive managed app for this lab, not a static HTML
 page, agent, or workflow. Use the exercise's LAB666 Onboarding title.
 
@@ -75,16 +75,16 @@ request additional services. Keep scope to this brief.
 Prepare the app for the entry point's supported Copilot Managed Runtime
 publish/deploy path. Do not treat a preview or source-code update as a
 confirmed hosted deployment.
-```
++
 
-```json
+++
 [
   {"id":"T1","task":"Review welcome guide","ownerRole":"New starter","status":"Complete"},
   {"id":"T2","task":"Confirm equipment checklist","ownerRole":"IT coordinator","status":"In progress"},
   {"id":"T3","task":"Schedule team introduction","ownerRole":"Team lead","status":"Not started"},
   {"id":"T4","task":"Read security basics","ownerRole":"New starter","status":"Not started"}
 ]
-```
++
 
 ===
 
@@ -98,25 +98,25 @@ Go to https://m365.cloud.microsoft/cowork
 
 Use the following USER credentials:
 
-Username: `AlexW@@lab.CloudCredential(WWLM365E7).TenantName`
+Username: +++AlexW@@lab.CloudCredential(WWLM365E7).TenantName+++
 
-TAP: `@lab.Variable(TAP)`
+TAP: +++@lab.Variable(TAP)+++
 
 1. Open the approved Cowork entry point and start its supported managed-app creation experience.
-2. type `/app`
-3. Add: `In Cowork, create LAB666 Onboarding — Cowork as a managed app.` Paste the common brief and fixture.
+2. Type +++/app+++.
+3. Type +++In Cowork, create LAB666 Onboarding — Cowork as a managed app.+++ Then paste the common brief and fixture.
 4. Allow generation to finish. Confirm you received an interactive app rather than only an explanation or static document. Observe its authoring preview.
-5. Run a standard preview test, ensuring everything is working. If needed, request one focused correction such as: `Keep the existing app. Fix only the failing checklist test and preserve the fixture and scope.`
+5. Run a standard preview test, ensuring everything is working. If needed, type one focused correction such as +++Keep the existing app. Fix only the failing checklist test and preserve the fixture and scope.+++
 6. Follow the facilitator's publishing guidance.
 7. Click **Open in browser**. This will then open it in a new browser tab (make sure you're using the same lab account if you cannot access), confirm the app looks and works the same.
 8. Return to authoring and request this small change:
 
-   ```text
+   ++
    Keep the app and fixture unchanged. Change the visible app title to
    "LAB666 Onboarding — Cowork v2" and add this sentence below it:
    "Practice checklist: fictional data; session edits may reset."
    Keep all existing interactions working.
-   ```
+   ++
 
 9. Confirm the new title and sentence in preview.
 10. Click publish. Then, once published, reopen or refresh the current hosted deployment link independently of authoring. Selected "refresh" on the updated app pop-up. Confirm “Cowork v2” and the new sentence appear, then test filtering and adding a task again.
@@ -133,7 +133,7 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
 > **Feature gate:** If users are unable to create using MCS, this segment becomes a facilitator demonstration using the prepared prompt above. 
 
 1. Open [Copilot Studio](https://copilotstudio.microsoft.com/). Confirm you are in the lab tenant.
-2. Add: `In Copilot Studio, create LAB666 Onboarding — Studio as a managed app.` Paste the common brief and fixture. Create a separate app rather than importing a previous exercise's app.
+2. Type +++In Copilot Studio, create LAB666 Onboarding — Studio as a managed app.+++ Then paste the common brief and fixture. Create a separate app rather than importing a previous exercise's app.
 3. Generate and preview it. Run the standard preview test; request at most one focused correction.
 4. Confirm “Fictional lab data” is visible and no enterprise connection was required. Keep the app self-contained for this exercise.
 5. Use Studio's supported app deployment/publishing controls to host the app in CMR. Review the intended audience and capture the hosted deployment link.
