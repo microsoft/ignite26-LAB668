@@ -132,7 +132,7 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
 
 > **Feature gate:** If users are unable to create using MCS, this segment becomes a facilitator demonstration using the prepared prompt above. 
 
-1. Open +++[Copilot Studio](https://copilotstudio.microsoft.com/)+++. Confirm you are in the lab tenant.
+1. Open +++https://copilotstudio.microsoft.com/+++. Confirm you are in the lab tenant.
 2. Type +++In Copilot Studio, create LAB666 Onboarding — Studio as a managed app.+++ Then paste the common brief and fixture. Create a separate app rather than importing a previous exercise's app.
 3. Generate and preview it. Run the standard preview test; request at most one focused correction.
 4. Confirm “Fictional lab data” is visible and no enterprise connection was required. Keep the app self-contained for this exercise.
@@ -199,4 +199,4 @@ Rehearse both exercises with an attendee-equivalent account. Measure generation,
 
 ### Continue learning
 
-+++[Collaborate on an app (preview) — Microsoft Learn](https://learn.microsoft.com/en-us/microsoft-365/managed-apps/)+++
++++https://learn.microsoft.com/en-us/microsoft-365/managed-apps/+++
