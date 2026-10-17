@@ -56,8 +56,7 @@ Use the title +++LAB666 Onboarding — Cowork+++ or +++LAB666 Onboarding — Stu
 
 Copy and paste this app brief into the app-creation experience, along with the JSON demo data fixture below. Add the short entry-point sentence shown in each exercise by typing it.
 
-++
-Create a supported interactive managed app for this lab, not a static HTML
+++Create a supported interactive managed app for this lab, not a static HTML
 page, agent, or workflow. Use the exercise's LAB666 Onboarding title.
 
 Display a fictional onboarding checklist with task, owner role, and status.
@@ -74,17 +73,37 @@ request additional services. Keep scope to this brief.
 
 Prepare the app for the entry point's supported Copilot Managed Runtime
 publish/deploy path. Do not treat a preview or source-code update as a
-confirmed hosted deployment.
-++
+confirmed hosted deployment.++
 
-++
-[
-  {"id":"T1","task":"Review welcome guide","ownerRole":"New starter","status":"Complete"},
-  {"id":"T2","task":"Confirm equipment checklist","ownerRole":"IT coordinator","status":"In progress"},
-  {"id":"T3","task":"Schedule team introduction","ownerRole":"Team lead","status":"Not started"},
-  {"id":"T4","task":"Read security basics","ownerRole":"New starter","status":"Not started"}
-]
-++
+++[
+  {
+    "id": "T1",
+    "task": "Review welcome guide",
+    "ownerRole": "New starter",
+    "status": "Complete"
+  },
+
+  {
+    "id": "T2",
+    "task": "Confirm equipment checklist",
+    "ownerRole": "IT coordinator",
+    "status": "In progress"
+  },
+
+  {
+    "id": "T3",
+    "task": "Schedule team introduction",
+    "ownerRole": "Team lead",
+    "status": "Not started"
+  },
+
+  {
+    "id": "T4",
+    "task": "Read security basics",
+    "ownerRole": "New starter",
+    "status": "Not started"
+  }
+]++
 
 ===
 
@@ -111,12 +130,10 @@ TAP: +++@lab.Variable(TAP)+++
 7. Click **Open in browser**. This will then open it in a new browser tab (make sure you're using the same lab account if you cannot access), confirm the app looks and works the same.
 8. Return to authoring and request this small change:
 
-   ++
-   Keep the app and fixture unchanged. Change the visible app title to
+   ++Keep the app and fixture unchanged. Change the visible app title to
    "LAB666 Onboarding — Cowork v2" and add this sentence below it:
    "Practice checklist: fictional data; session edits may reset."
-   Keep all existing interactions working.
-   ++
+   Keep all existing interactions working.++
 
 9. Confirm the new title and sentence in preview.
 10. Click publish. Then, once published, reopen or refresh the current hosted deployment link independently of authoring. Selected "refresh" on the updated app pop-up. Confirm “Cowork v2” and the new sentence appear, then test filtering and adding a task again.
