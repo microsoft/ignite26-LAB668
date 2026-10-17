@@ -1,4 +1,4 @@
-# Attendee instructions
+# Host apps from anywhere with the new Copilot Managed Runtime
 
 **Focus:** Create apps and publish to Microsoft Copilot Managed Runtime, starting from familiar Microsoft experiences or third-party.
 
@@ -7,6 +7,8 @@ In this lab, you'll build interactive apps in Cowork and Copilot Studio, publish
 The hands-on exercises focus on Cowork and Copilot Studio. You'll also learn how other entry points, including Code, and the SDK and CLI fit into the broader development experience. SDK and CLI coverage is presenter-led; no local installation is required.
 
 Your facilitator will provide the lab account and access instructions for the features available in the session.
+
+===
 
 ## Learning outcomes
 
@@ -19,6 +21,8 @@ By the end, you should be able to:
 - Explain why app access, underlying data permissions, and Microsoft 365 administration are separate concerns.
 
 These experiences overlap. The choice of starting point does not establish different intrinsic app capabilities or automatic cross-client handoff.
+
+===
 
 ## Schedule
 
@@ -36,6 +40,8 @@ Times are elapsed minutes from the start of the session.
 
 Stop each exercise at its cutoff. If generation or publishing stalls, use the organizer's prepared fallback and continue; do not spend the next exercise troubleshooting.
 
+===
+
 ## Before you start: 
 
 You need a browser, the facilitator-provided lab account, and access to the approved tenant and entry points. No local SDK, CLI, Git, Node.js, third-party account, or live enterprise connector is required for the core exercises.
@@ -45,6 +51,8 @@ You need a browser, the facilitator-provided lab account, and access to the appr
 3. Open the organizer's hosted fallback app. Confirm it loads outside its authoring preview. Report an access failure immediately.
 
 Do not sign in with another tenant or grant new permissions to work around a failure. If an entry point is unavailable, follow its facilitator demonstration and record that exercise as observed, not completed hands-on.
+
+===
 
 ## Common scenario, data, and prompt
 
@@ -86,11 +94,21 @@ confirmed hosted deployment.
 ]
 ```
 
+===
+
 ## Exercise 1 — Cowork: 
 
 Cowork fits broader work tasks where creating an app is part of getting the work done. Build, publish, and then revise the same app in this exercise.
 
 > **Feature gate:** If users are unable to create using MCS, this segment becomes a facilitator demonstration using the prepared prompt above. 
+
+Go to https://m365.cloud.microsoft/cowork
+
+Use the following USER credentials:
+
+Username: `AlexW@@lab.CloudCredential(WWLM365E7).TenantName`
+
+TAP: `@lab.Variable(TAP)`
 
 1. Open the approved Cowork entry point and start its supported managed-app creation experience.
 2. type `/app`
@@ -114,6 +132,8 @@ Cowork fits broader work tasks where creating an app is part of getting the work
 
 **Checkpoint:** A hosted app opens independently of the Cowork preview and shows the revision with working interactions. Preview alone is not completion; iIf publishing fails, observe the prepared hosted app by the lab providers. 
 
+===
+
 ## Exercise 2 — Copilot Studio: 
 
 Copilot Studio supports enterprise agents, workflows and now apps. This exercise specifically uses **app creation**, not agent or workflow creation.
@@ -129,6 +149,8 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
 7. Record the hosted link and outcome. If the feature gate or deployment blocks you, follow the prepared demonstration and record “observed” plus the reason.
 
 **Checkpoint:** A Studio-authored supported app runs at its hosted link, or the worksheet honestly records a demonstration-only outcome. Apps built in Studio can use connectors, but cannot call agents or workflows from the app.
+
+===
 
 ## Hosted access, developer bridge, and governance: 
 
@@ -148,6 +170,8 @@ The conceptual sequence is **obtain source → edit locally → build/preview �
 
 The presenters will, using an approved administrator account, will show the relevant validated app-management view in **Microsoft 365 administration** and identify available identity, access, and data controls.
 
+===
+
 ## Session validation: 
 
 - [ ] I opened at least one app I deployed at a hosted link outside authoring preview.
@@ -156,6 +180,8 @@ The presenters will, using an approved administrator account, will show the rele
 - [ ] I can explain preview versus deployment, and app sharing versus data rights.
 
 Keep a private note of your app titles and hosted links. Remove only your own lab apps and sharing grants through supported lifecycle controls if instructed. Do not delete prepared shared apps, data sources, or tenant settings. The organizer supplies the retention policy; there is no scripted cleanup in this guide.
+
+===
 
 ## Troubleshooting
 
@@ -166,6 +192,8 @@ Keep a private note of your app titles and hosted links. Remove only your own la
 | Preview works but hosted link fails | Check deployment outcome, URL type, signed-in account, and authorized audience |
 | Hosted app still shows the old title | Confirm republish completed and reopen the current deployment link |
 | Connector asks for unexpected consent | Stop; core exercises require no connector or additional permissions |
+
+===
 
 ## Organizer readiness — complete before the event
 
