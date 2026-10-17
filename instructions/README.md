@@ -75,7 +75,7 @@ request additional services. Keep scope to this brief.
 Prepare the app for the entry point's supported Copilot Managed Runtime
 publish/deploy path. Do not treat a preview or source-code update as a
 confirmed hosted deployment.
-+
+++
 
 ++
 [
@@ -84,7 +84,7 @@ confirmed hosted deployment.
   {"id":"T3","task":"Schedule team introduction","ownerRole":"Team lead","status":"Not started"},
   {"id":"T4","task":"Read security basics","ownerRole":"New starter","status":"Not started"}
 ]
-+
+++
 
 ===
 
