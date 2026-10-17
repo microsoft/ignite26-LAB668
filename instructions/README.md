@@ -8,8 +8,6 @@ The hands-on exercises focus on Cowork and Copilot Studio. You'll also learn how
 
 Your facilitator will provide the lab account and access instructions for the features available in the session.
 
-===
-
 ## Learning outcomes
 
 By the end, you should be able to:
@@ -21,8 +19,6 @@ By the end, you should be able to:
 - Explain why app access, underlying data permissions, and Microsoft 365 administration are separate concerns.
 
 These experiences overlap. The choice of starting point does not establish different intrinsic app capabilities or automatic cross-client handoff.
-
-===
 
 ## Schedule
 
@@ -40,8 +36,6 @@ Times are elapsed minutes from the start of the session.
 
 Stop each exercise at its cutoff. If generation or publishing stalls, use the organizer's prepared fallback and continue; do not spend the next exercise troubleshooting.
 
-===
-
 ## Before you start: 
 
 You need a browser, the facilitator-provided lab account, and access to the approved tenant and entry points. No local SDK, CLI, Git, Node.js, third-party account, or live enterprise connector is required for the core exercises.
@@ -51,8 +45,6 @@ You need a browser, the facilitator-provided lab account, and access to the appr
 3. Open the organizer's hosted fallback app. Confirm it loads outside its authoring preview. Report an access failure immediately.
 
 Do not sign in with another tenant or grant new permissions to work around a failure. If an entry point is unavailable, follow its facilitator demonstration and record that exercise as observed, not completed hands-on.
-
-===
 
 ## Common scenario, data, and prompt
 
@@ -170,8 +162,6 @@ The conceptual sequence is **obtain source → edit locally → build/preview �
 
 The presenters will, using an approved administrator account, will show the relevant validated app-management view in **Microsoft 365 administration** and identify available identity, access, and data controls.
 
-===
-
 ## Session validation: 
 
 - [ ] I opened at least one app I deployed at a hosted link outside authoring preview.
@@ -180,8 +170,6 @@ The presenters will, using an approved administrator account, will show the rele
 - [ ] I can explain preview versus deployment, and app sharing versus data rights.
 
 Keep a private note of your app titles and hosted links. Remove only your own lab apps and sharing grants through supported lifecycle controls if instructed. Do not delete prepared shared apps, data sources, or tenant settings. The organizer supplies the retention policy; there is no scripted cleanup in this guide.
-
-===
 
 ## Troubleshooting
 
@@ -192,8 +180,6 @@ Keep a private note of your app titles and hosted links. Remove only your own la
 | Preview works but hosted link fails | Check deployment outcome, URL type, signed-in account, and authorized audience |
 | Hosted app still shows the old title | Confirm republish completed and reopen the current deployment link |
 | Connector asks for unexpected consent | Stop; core exercises require no connector or additional permissions |
-
-===
 
 ## Organizer readiness — complete before the event
 
