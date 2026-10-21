@@ -129,16 +129,21 @@ Cowork fits broader work tasks where creating an app is part of getting the work
 2. Enter the user name and password.
 3. Select the +++Cowork++ button.
 ![Select Cowork](../img/01.1-select-cowork-button.png)
+
 4. Type +++/app+++.
 5. Type +++In Cowork, create LAB666 Onboarding — Cowork as a managed app.+++ Then paste the common brief and fixture.
 ![Enter prompt](../img/01.2-use-app-skill-and-enter-prompt.png)
+
 6. Allow generation to finish. Confirm you received an interactive app rather than only an explanation or static document. Observe its authoring preview.
 ![Generating app](../img/01.3-allow-to-finish.png)
+
 7. Run a standard preview test, ensuring everything is working. If needed, type one focused correction such as +++Keep the existing app. Fix only the failing checklist test and preserve the fixture and scope.+++
 ![Generating app](../img/01.4-standard-preview.png)
+
 8. If your app was not published, click publish to deploy to Copilot Managed Runtime, making your app hosted, secure, governed and shareable.
 9. Click **Open in browser**. This will then open it in a new browser tab (make sure you're using the same lab account if you cannot access), confirm the app looks and works the same.
 ![Open in browser](../img/01.5-open-in-browser.png)
+
 10. Return to authoring and request this small change:
 
    ```
@@ -149,9 +154,11 @@ Cowork fits broader work tasks where creating an app is part of getting the work
    ```
 
 ![Authoring change](../img/01.6-authoring-change.png)
+
 11. Confirm the new title and sentence in preview.
 12. Click publish. Then, once published, reopen or refresh the current hosted deployment link independently of authoring. Selected "refresh" on the updated app pop-up. Confirm “Cowork v2” and the new sentence appear, then test filtering and adding a task again.
 ![Refresh after publish](../img/01.7-refresh-after-publish.png)
+
 13. Check the title.
 ![Confirm changes](../img/01.8-confirm-changes.png)
 
@@ -166,12 +173,18 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
 > **Feature gate:** If users are unable to create using MCS, this segment becomes a facilitator demonstration using the prepared prompt above. 
 
 1. Open +++https://copilotstudio.microsoft.com/+++. Confirm you are in the lab tenant.
-2. Type +++In Copilot Studio, create LAB666 Onboarding — Studio as a managed app.+++ Then paste the common brief and fixture. Create a separate app rather than importing a previous exercise's app.
-3. Generate and preview it. Run the standard preview test; request at most one focused correction.
-4. Confirm “Fictional lab data” is visible and no enterprise connection was required. Keep the app self-contained for this exercise.
-5. Use Studio's supported app deployment/publishing controls to host the app in CMR. Review the intended audience and capture the hosted deployment link.
-6. Open that link independently. Repeat the load, filter, add, and status-edit tests. Reopening may reset local edits; that is compatible with this lab's scope.
-7. Record the hosted link and outcome. If the feature gate or deployment blocks you, follow the prepared demonstration and record “observed” plus the reason.
+2. Select App from the homepage. 
+3. Type +++In Copilot Studio, create LAB666 Onboarding — Studio as a managed app.+++ Then paste the common brief and fixture. Create a separate app rather than importing a previous exercise's app.
+![Prompt input](../img/02.1-prompt.png)
+
+4. Generate and preview it. Run the standard preview test; request at most one focused correction.
+![Generate and preview](../img/02.2-generate-and-preview.png)
+
+5. Confirm “Fictional lab data” is visible and no enterprise connection was required. Keep the app self-contained for this exercise.
+6. Use Studio's publishing button to host the app in Copilot Managed Runtime. Now you can review the intended audience and capture the hosted deployment link.
+![Share and play](../img/02.3-share-button.png)
+
+7. Open that link independently in a new tab or click play to see the published app. 
 
 **Checkpoint:** A Studio-authored supported app runs at its hosted link, or the worksheet honestly records a demonstration-only outcome. Apps built in Studio can use connectors, but cannot call agents or workflows from the app.
 
