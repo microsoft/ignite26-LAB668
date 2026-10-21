@@ -36,23 +36,33 @@ Times are elapsed minutes from the start of the session.
 
 Stop each exercise at its cutoff. If generation or publishing stalls, use the organizer's prepared fallback and continue; do not spend the next exercise troubleshooting.
 
-## Before you start: 
-
-You need a browser, the facilitator-provided lab account, and access to the approved tenant and entry points. No local SDK, CLI, Git, Node.js, third-party account, or live enterprise connector is required for the core exercises.
-
-1. Sign in using the supplied lab account. Confirm the account and tenant match the facilitator's instructions.
-2. Open the supplied Cowork and Copilot Studio entry points in separate tabs. Confirm which support app creation and publishing for your account today.
-3. Open the organizer's hosted fallback app. Confirm it loads outside its authoring preview. Report an access failure immediately.
-
-Do not sign in with another tenant or grant new permissions to work around a failure. If an entry point is unavailable, follow its facilitator demonstration and record that exercise as observed, not completed hands-on.
-
 ## Common scenario, data, and prompt
 
 Create a fictional employee onboarding checklist. Use role labels, not real employee information. Both apps use the same fixture so you can focus on authoring and hosting rather than inventing requirements.
 
 Use the title +++LAB666 Onboarding — Cowork+++ or +++LAB666 Onboarding — Studio+++.
 
-### App brief
+## Getting started: 
+
+Select the **Resources** tab to find your Virtual Machine credentials and Microsoft 365 credentials. The green text with the +++icon+++ can be clicked on and will be typed automatically into the VM, For example, please click in the **Password** text box in the **Resources** tab to login to the Virtual Machine.
+
+> [!NOTE]
+> To ensure text is entered accurately, avoid interacting or clicking in the VM until the text has finished being typed.
+
+## Verify your assigned resources
+
+1. Confirm the **Resources** panel shows values for **ADMINISTRATIVE USERNAME** and **TEMPORARY ACCESS PASS**. You'll need these to login to the Microsoft 365 account.
+1. Confirm the lab files exist in your Virtual Machine's hard drive at `D:\LabFiles`.
+1. Open Microsoft Edge.
+
+> [!NOTE]
+> If credentials are missing, select **Refresh Credentials**. Wait for autotype to finish before interacting with the VM.
+
+Ready to get started? Click **Next**.
+
+# 1 - Build the app with Cowork
+
+## App brief
 
 Copy and paste this app brief into the app-creation experience, along with the JSON demo data fixture below. Add the short entry-point sentence shown in each exercise by typing it.
 
@@ -109,30 +119,27 @@ confirmed hosted deployment.
 ]
 ```
 
-===
-
 ## Exercise 1 — Cowork: 
 
 Cowork fits broader work tasks where creating an app is part of getting the work done. Build, publish, and then revise the same app in this exercise.
 
-> **Feature gate:** If users are unable to create using MCS, this segment becomes a facilitator demonstration using the prepared prompt above. 
 
-Go to +++https://m365.cloud.microsoft/cowork+++
 
-Use the following USER credentials:
-
-Username: +++AlexW@@lab.CloudCredential(WWLM365E7).TenantName+++
-
-TAP: +++@lab.Variable(TAP)+++
-
-1. Open the approved Cowork entry point and start its supported managed-app creation experience.
-2. Type +++/app+++.
-3. Type +++In Cowork, create LAB666 Onboarding — Cowork as a managed app.+++ Then paste the common brief and fixture.
-4. Allow generation to finish. Confirm you received an interactive app rather than only an explanation or static document. Observe its authoring preview.
-5. Run a standard preview test, ensuring everything is working. If needed, type one focused correction such as +++Keep the existing app. Fix only the failing checklist test and preserve the fixture and scope.+++
-6. Follow the facilitator's publishing guidance.
-7. Click **Open in browser**. This will then open it in a new browser tab (make sure you're using the same lab account if you cannot access), confirm the app looks and works the same.
-8. Return to authoring and request this small change:
+1. Go to +++[https://copilot.cloud.microsoft/home](https://copilot.cloud.microsoft/home)+++
+2. Enter the user name and password.
+3. Select the +++Cowork++ button.
+![Select Cowork](./img/01.1-select-cowork-button.png)
+4. Type +++/app+++.
+5. Type +++In Cowork, create LAB666 Onboarding — Cowork as a managed app.+++ Then paste the common brief and fixture.
+![Enter prompt](./img/01.2-use-app-skill-and-enter-prompt.png)
+6. Allow generation to finish. Confirm you received an interactive app rather than only an explanation or static document. Observe its authoring preview.
+![Generating app](./img/01.3-allow-to-finish.png)
+7. Run a standard preview test, ensuring everything is working. If needed, type one focused correction such as +++Keep the existing app. Fix only the failing checklist test and preserve the fixture and scope.+++
+![Generating app](./img/01.4-standard-preview.png)
+8. If your app was not published, click publish to deploy to Copilot Managed Runtime, making your app hosted, secure, governed and shareable.
+9. Click **Open in browser**. This will then open it in a new browser tab (make sure you're using the same lab account if you cannot access), confirm the app looks and works the same.
+![Open in browser](./img/01.5-open-in-browser.png)
+10. Return to authoring and request this small change:
 
    ```
    Keep the app and fixture unchanged. Change the visible app title to
@@ -141,9 +148,12 @@ TAP: +++@lab.Variable(TAP)+++
    Keep all existing interactions working.
    ```
 
-9. Confirm the new title and sentence in preview.
-10. Click publish. Then, once published, reopen or refresh the current hosted deployment link independently of authoring. Selected "refresh" on the updated app pop-up. Confirm “Cowork v2” and the new sentence appear, then test filtering and adding a task again.
-11. Check the title.
+![Authoring change](./img/01.6-authoring-change.png)
+11. Confirm the new title and sentence in preview.
+12. Click publish. Then, once published, reopen or refresh the current hosted deployment link independently of authoring. Selected "refresh" on the updated app pop-up. Confirm “Cowork v2” and the new sentence appear, then test filtering and adding a task again.
+![Refresh after publish](./img/01.7-refresh-after-publish.png)
+13. Check the title.
+![Confirm changes](./img/01.8-confirm-changes.png)
 
 **Checkpoint:** A hosted app opens independently of the Cowork preview and shows the revision with working interactions. Preview alone is not completion; iIf publishing fails, observe the prepared hosted app by the lab providers. 
 
