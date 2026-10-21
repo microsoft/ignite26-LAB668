@@ -227,20 +227,6 @@ Keep a private note of your app titles and hosted links. Remove only your own la
 | Hosted app still shows the old title | Confirm republish completed and reopen the current deployment link |
 | Connector asks for unexpected consent | Stop; core exercises require no connector or additional permissions |
 
-## Organizer readiness — complete before the event
-
-Supply the following in the session handout; no endpoints or prepared assets are assumed to exist in this repository.
-
-| Required information | Organizer-supplied value |
-| --- | --- |
-| Lab account, tenant, and seat identifiers | Supply approved account instructions |
-| Cowork and Copilot Studio entry points | Supply validated URLs |
-| Supported app creation/publish route for each | Supply current UI labels, destination selection, and any entitlement requirements |
-| Studio availability and alternative | Confirm hands-on enabled, or announce facilitator-only demonstration |
-| Prepared fallback per entry point | Supply approved preview/hosted links and a recorded alternative if needed |
-| Sharing target and retention | Supply approved partner/group and cleanup policy |
-| Administration demonstration | Supply approved admin account and validated Microsoft 365 view |
-
 Rehearse both exercises with an attendee-equivalent account. Measure generation, publish, and Cowork republish against the cutoffs; verify fixture tests, permissions, and independent hosted access. Check the Studio feature gate explicitly. Prepare separate fallback apps in advance, including the Cowork before/after revision.
 
 ### Continue learning
