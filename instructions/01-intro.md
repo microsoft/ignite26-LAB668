@@ -1,0 +1,65 @@
+# Host apps from anywhere with the new Copilot Managed Runtime
+
+**Focus:** Create apps and publish to Microsoft Copilot Managed Runtime, starting from familiar Microsoft experiences or third-party.
+
+In this lab, you'll build interactive apps in Cowork and Copilot Studio, publish them to Copilot Managed Runtime (CMR), and open them outside the authoring preview. Each exercise uses the same fictional scenario to create a separate app. No manual transfer between products or prior coding experience is required.
+
+The hands-on exercises focus on Cowork and Copilot Studio. You'll also learn how other entry points, including Code, and the SDK and CLI fit into the broader development experience. SDK and CLI coverage is presenter-led; no local installation is required.
+
+Your facilitator will provide the lab account and access instructions for the features available in the session.
+
+## Learning outcomes
+
+By the end, you should be able to:
+
+- Choose an authoring entry point based on intent: work tasks in Cowork or enterprise solutions in Copilot Studio.
+- Create, preview, test, and publish a supported interactive app.
+- Distinguish an authoring preview, editable source, and a hosted deployment.
+- Make a visible change and verify it after republishing.
+- Explain why app access, underlying data permissions, and Microsoft 365 administration are separate concerns.
+
+These experiences overlap. The choice of starting point does not establish different intrinsic app capabilities or automatic cross-client handoff.
+
+## Schedule
+
+Times are elapsed minutes from the start of the session.
+
+| Time | Minutes | Activity |
+| --- | ---: | --- |
+| 00–08 | 8 | Sign in, access check, and introduction |
+| 03–23 | 15 | Overview |
+| 23–43 | 20 | Exercise 1: Cowork create, test, publish, iterate, and republish |
+| 43–63 | 20 | Exercise 2: Copilot Studio create, test, and publish |
+| 63–68 | 5 | Hosted access/sharing check, SDK/CLI bridge, administration |
+| 68–75 | 7 | Completion check, recap, and cleanup guidance |
+| **Total** | **75** | |
+
+Stop each exercise at its cutoff. If generation or publishing stalls, use the organizer's prepared fallback and continue; do not spend the next exercise troubleshooting.
+
+## Common scenario, data, and prompt
+
+Create a fictional employee onboarding checklist. Use role labels, not real employee information. Both apps use the same fixture so you can focus on authoring and hosting rather than inventing requirements.
+
+Use the title +++LAB666 Onboarding — Cowork+++ or +++LAB666 Onboarding — Studio+++.
+
+## Getting started:
+
+Select the **Resources** tab to find your Virtual Machine credentials and Microsoft 365 credentials. The green text with the +++icon+++ can be clicked on and will be typed automatically into the VM, For example, please click in the **Password** text box in the **Resources** tab to login to the Virtual Machine.
+
+> [!NOTE]
+> To ensure text is entered accurately, avoid interacting or clicking in the VM until the text has finished being typed.
+
+## Verify your assigned resources
+
+1. Confirm the **Resources** panel shows values for **ADMINISTRATIVE USERNAME** and **TEMPORARY ACCESS PASS**. You'll need these to login to the Microsoft 365 account.
+1. Confirm the lab files exist in your Virtual Machine's hard drive at `D:\LabFiles`.
+1. Open Microsoft Edge.
+
+> [!NOTE]
+> If credentials are missing, select **Refresh Credentials**. Wait for autotype to finish before interacting with the VM.
+
+Ready to get started? Click [**Next**](02-exercise-1-cowork.md).
+
+---
+
+[Lab sections](README.md) | [Next: Exercise 1 - Cowork](02-exercise-1-cowork.md)
