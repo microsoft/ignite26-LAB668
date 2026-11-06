@@ -40,7 +40,7 @@ Stop each exercise at its cutoff. If generation or publishing stalls, use the or
 
 Create a fictional employee onboarding checklist. Use role labels, not real employee information. Both apps use the same fixture so you can focus on authoring and hosting rather than inventing requirements.
 
-Use the title +++LAB666 Onboarding — Cowork+++ or +++LAB666 Onboarding — Studio+++.
+Use the title +++LAB668 Onboarding — Cowork+++ or +++LAB668 Onboarding — Studio+++.
 
 ## Getting started:
 

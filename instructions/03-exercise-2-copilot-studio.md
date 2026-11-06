@@ -10,7 +10,7 @@ Use the shared [app brief and JSON demo data fixture](02-exercise-1-cowork.md#ap
 
 1. Open +++https://copilotstudio.microsoft.com/+++. Confirm you are in the lab tenant.
 2. Select App from the homepage.
-3. Type +++In Copilot Studio, create LAB666 Onboarding — Studio as a managed app.+++ Then paste the common brief and fixture. Create a separate app rather than importing a previous exercise's app.
+3. Type +++In Copilot Studio, create LAB668 Onboarding — Studio as a managed app.+++ Then paste the common brief and fixture. Create a separate app rather than importing a previous exercise's app.
 ![Prompt input](../img/02.1-prompt.png)
 
 4. Generate and preview it. Run the standard preview test; request at most one focused correction.

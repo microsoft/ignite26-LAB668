@@ -8,7 +8,7 @@
 
 # [Microsoft Ignite 2026](https://ignite.microsoft.com)
 
-## 🔥LAB666: Host apps from anywhere with the new Copilot Managed Runtime
+## 🔥LAB668: Host apps from anywhere with the new Copilot Managed Runtime
 ### Session description
 
 Get hands-on with Copilot Managed Runtime and learn how to bring apps built with Microsoft and third-party tools into a managed enterprise environment. You’ll deploy and run an app, explore different entry points, and see how the runtime provides the connectivity and management needed to take AI-generated code from prototype to enterprise use.

@@ -4,7 +4,7 @@ Paste this prompt, that's an app brief into the app-creation experience, with th
 
 ```text
 Create a supported interactive managed app for this lab, not a static HTML
-page, agent, or workflow. Use the exercise's LAB666 Onboarding title.
+page, agent, or workflow. Use the exercise's LAB668 Onboarding title.
 
 Display a fictional onboarding checklist with task, owner role, and status.
 Status choices must be Not started, In progress, and Complete.
