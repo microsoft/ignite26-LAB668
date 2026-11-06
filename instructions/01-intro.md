@@ -34,14 +34,6 @@ Times are elapsed minutes from the start of the session.
 | 68–75 | 7 | Completion check, recap, and cleanup guidance |
 | **Total** | **75** | |
 
-Stop each exercise at its cutoff. If generation or publishing stalls, use the organizer's prepared fallback and continue; do not spend the next exercise troubleshooting.
-
-## Common scenario, data, and prompt
-
-Create a fictional employee onboarding checklist. Use role labels, not real employee information. Both apps use the same fixture so you can focus on authoring and hosting rather than inventing requirements.
-
-Use the title +++LAB668 Onboarding — Cowork+++ or +++LAB668 Onboarding — Studio+++.
-
 ## Getting started:
 
 1. Log in to the Virtual Machine using the password @lab.VirtualMachine(Win11-Pro-Base(Ignite26)).Password
