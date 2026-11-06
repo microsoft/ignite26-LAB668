@@ -23,7 +23,3 @@ Use the shared [app brief and JSON demo data fixture from Exercise 1, step 5](02
 1. Open that link independently in a new tab or click play to see the published app.
 
 **Checkpoint:** A Studio-authored supported app runs at its hosted link, or the worksheet honestly records a demonstration-only outcome. Apps built in Studio can use connectors, but cannot call agents or workflows from the app.
-
----
-
-[Previous: Exercise 1 - Cowork](02-exercise-1-cowork.md)

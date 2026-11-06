@@ -102,7 +102,3 @@ Cowork fits broader work tasks where creating an app is part of getting the work
    ![Confirm changes](../img/01.8-confirm-changes.png)
 
 **Checkpoint:** A hosted app opens independently of the Cowork preview and shows the revision with working interactions. Preview alone is not completion; iIf publishing fails, observe the prepared hosted app by the lab providers.
-
----
-
-[Previous: Intro](01-intro.md)
