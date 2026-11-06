@@ -49,11 +49,3 @@ Use the title +++LAB668 Onboarding — Cowork+++ or +++LAB668 Onboarding — Stu
 
    > [!NOTE]
    > To ensure text is entered accurately, avoid interacting or clicking in the VM until the text has finished being typed.
-
-## Verify your assigned resources
-
-1. Confirm the **Resources** panel shows values for **ADMINISTRATIVE USERNAME** and **TEMPORARY ACCESS PASS**. You'll need these to login to the Microsoft 365 account.
-1. Open Microsoft Edge.
-
-> [!NOTE]
-> If credentials are missing, select **Refresh Credentials**. Wait for autotype to finish before interacting with the VM.
