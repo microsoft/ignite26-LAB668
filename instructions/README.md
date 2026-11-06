@@ -7,4 +7,4 @@ Build interactive apps in Cowork and Copilot Studio, publish them to Copilot Man
 1. [Exercise 2 - Copilot Studio](03-exercise-2-copilot-studio.md) - Create, test, and publish a separate app.
 1. [Outro](04-outro.md) - Hosted access and sharing, SDK/CLI bridge, governance, completion checks, and troubleshooting.
 
-Start with the [intro](01-intro.md). Each section links to the next and back to this index.
+Start with the [intro](01-intro.md).

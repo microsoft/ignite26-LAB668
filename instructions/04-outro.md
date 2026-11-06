@@ -42,7 +42,3 @@ Rehearse both exercises with an attendee-equivalent account. Measure generation,
 ### Continue learning
 
 +++https://learn.microsoft.com/en-us/microsoft-365/managed-apps/+++
-
----
-
-[Previous: Exercise 2 - Copilot Studio](03-exercise-2-copilot-studio.md) | [Lab sections](README.md)
