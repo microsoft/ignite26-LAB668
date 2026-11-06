@@ -5,7 +5,10 @@
 Cowork fits broader work tasks where creating an app is part of getting the work done. Build, publish, and then revise the same app in this exercise.
 
 1. Go to +++https://copilot.cloud.microsoft/home+++
-1. Enter the user name and password.
+1. Sign in using the username and Temporary Access Pass below.
+
+   Username: @lab.CloudCredential(WWLM365E7).AdministrativeUsername  
+   Temporary Access Pass: @lab.Variable(TAP)
 1. Select the Cowork button.
    ![Select Cowork](../img/01.1-select-cowork-button.png)
 

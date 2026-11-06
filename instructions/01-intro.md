@@ -34,26 +34,9 @@ Times are elapsed minutes from the start of the session.
 | 68–75 | 7 | Completion check, recap, and cleanup guidance |
 | **Total** | **75** | |
 
-Stop each exercise at its cutoff. If generation or publishing stalls, use the organizer's prepared fallback and continue; do not spend the next exercise troubleshooting.
-
-## Common scenario, data, and prompt
-
-Create a fictional employee onboarding checklist. Use role labels, not real employee information. Both apps use the same fixture so you can focus on authoring and hosting rather than inventing requirements.
-
-Use the title +++LAB668 Onboarding — Cowork+++ or +++LAB668 Onboarding — Studio+++.
-
 ## Getting started:
 
 1. Log in to the Virtual Machine using the password @lab.VirtualMachine(Win11-Pro-Base(Ignite26)).Password
-1. Select the **Resources** tab to find your Virtual Machine credentials and Microsoft 365 credentials. The green text with the +++icon+++ can be clicked on and will be typed automatically into the VM. For example, click in the **Password** text box in the **Resources** tab to log in to the Virtual Machine.
+1. Open Microsoft Edge (a shortcut is on the desktop)
 
-   > [!NOTE]
-   > To ensure text is entered accurately, avoid interacting or clicking in the VM until the text has finished being typed.
-
-## Verify your assigned resources
-
-1. Confirm the **Resources** panel shows values for **ADMINISTRATIVE USERNAME** and **TEMPORARY ACCESS PASS**. You'll need these to login to the Microsoft 365 account.
-1. Open Microsoft Edge.
-
-> [!NOTE]
-> If credentials are missing, select **Refresh Credentials**. Wait for autotype to finish before interacting with the VM.
+   > **Note:** To ensure text is entered accurately, avoid interacting or clicking in the VM until the text has finished being typed.
