@@ -4,9 +4,9 @@
 
 Copilot Studio supports enterprise agents, workflows and now apps. This exercise specifically uses **app creation**, not agent or workflow creation.
 
-> **Feature gate:** If users are unable to create using MCS, this segment becomes a facilitator demonstration using the [shared app brief and fixture](02-exercise-1-cowork.md#app-brief).
+> **Feature gate:** If users are unable to create using MCS, this segment becomes a facilitator demonstration using the [shared app brief and fixture in Exercise 1, step 5](02-exercise-1-cowork.md).
 
-Use the shared [app brief and JSON demo data fixture](02-exercise-1-cowork.md#app-brief) from Exercise 1.
+Use the shared [app brief and JSON demo data fixture from Exercise 1, step 5](02-exercise-1-cowork.md).
 
 1. Open +++https://copilotstudio.microsoft.com/+++. Confirm you are in the lab tenant.
 2. Select App from the homepage.
