@@ -6,7 +6,7 @@ Cowork fits broader work tasks where creating an app is part of getting the work
 
 
 
-1. Go to [https://copilot.cloud.microsoft/home](https://copilot.cloud.microsoft/home)
+1. Go to +++https://copilot.cloud.microsoft/home+++
 2. Enter the user name and password.
 3. Select the Cowork button.
 ![Select Cowork](../img/01.1-select-cowork-button.png)
