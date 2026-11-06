@@ -37,6 +37,6 @@ Times are elapsed minutes from the start of the session.
 ## Getting started:
 
 1. Log in to the Virtual Machine using the password @lab.VirtualMachine(Win11-Pro-Base(Ignite26)).Password
-1. Select the **Resources** tab to find your Virtual Machine credentials and Microsoft 365 credentials. The green text with the +++icon+++ can be clicked on and will be typed automatically into the VM. For example, click in the **Password** text box in the **Resources** tab to log in to the Virtual Machine.
+1. Open Microsoft Edge (a shortcut is on the desktop)
 
    > **Note:** To ensure text is entered accurately, avoid interacting or clicking in the VM until the text has finished being typed.
