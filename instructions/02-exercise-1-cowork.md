@@ -105,4 +105,4 @@ Cowork fits broader work tasks where creating an app is part of getting the work
 
 ---
 
-[Previous: Intro](01-intro.md) | [Lab sections](README.md) | [Next: Exercise 2 - Copilot Studio](03-exercise-2-copilot-studio.md)
+[Previous: Intro](01-intro.md)

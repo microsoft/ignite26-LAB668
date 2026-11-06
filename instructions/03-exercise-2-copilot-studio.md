@@ -26,4 +26,4 @@ Use the shared [app brief and JSON demo data fixture from Exercise 1, step 5](02
 
 ---
 
-[Previous: Exercise 1 - Cowork](02-exercise-1-cowork.md) | [Lab sections](README.md) | [Next: Outro](04-outro.md)
+[Previous: Exercise 1 - Cowork](02-exercise-1-cowork.md)

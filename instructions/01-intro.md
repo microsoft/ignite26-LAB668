@@ -57,9 +57,3 @@ Select the **Resources** tab to find your Virtual Machine credentials and Micros
 
 > [!NOTE]
 > If credentials are missing, select **Refresh Credentials**. Wait for autotype to finish before interacting with the VM.
-
-Ready to get started? Click [**Next**](02-exercise-1-cowork.md).
-
----
-
-[Lab sections](README.md) | [Next: Exercise 1 - Cowork](02-exercise-1-cowork.md)
