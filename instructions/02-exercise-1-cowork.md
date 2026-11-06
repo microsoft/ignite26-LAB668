@@ -2,11 +2,13 @@
 
 ## App brief
 
-Copy and paste this app brief into the app-creation experience, along with the JSON demo data fixture below. Add the short entry-point sentence shown in each exercise by typing it.
+The two blocks below are the shared app brief and demo data for both exercises. In Cowork, you'll paste them into your prompt at **step 5**, after signing in and selecting `/app`. For now, follow the Cowork steps below; you do not need to paste anything yet.
+
+**App brief text**
 
 ```
 Create a supported interactive managed app for this lab, not a static HTML
-page, agent, or workflow. Use the exercise's LAB666 Onboarding title.
+page, agent, or workflow. Use the exercise's LAB668 Onboarding title.
 
 Display a fictional onboarding checklist with task, owner role, and status.
 Status choices must be Not started, In progress, and Complete.
@@ -24,6 +26,8 @@ Prepare the app for the entry point's supported Copilot Managed Runtime
 publish/deploy path. Do not treat a preview or source-code update as a
 confirmed hosted deployment.
 ```
+
+**JSON demo data fixture**
 
 ```
 [
@@ -68,8 +72,8 @@ Cowork fits broader work tasks where creating an app is part of getting the work
 3. Select the +++Cowork++ button.
 ![Select Cowork](../img/01.1-select-cowork-button.png)
 
-4. Type +++/app+++.
-5. Type +++In Cowork, create LAB666 Onboarding — Cowork as a managed app.+++ Then paste the common brief and fixture.
+4. In the Cowork prompt box, type +++/app+++ to select app creation.
+5. In the same prompt, type +++In Cowork, create LAB668 Onboarding — Cowork as a managed app.+++ Then copy the entire **App brief text** block above and paste it after that sentence. Copy the entire **JSON demo data fixture** block and paste it after the brief. Copy only the contents of each block, not the backticks. Once the sentence, brief, and JSON data are all in the same prompt, send it to Cowork.
 ![Enter prompt](../img/01.2-use-app-skill-and-enter-prompt.png)
 
 6. Allow generation to finish. Confirm you received an interactive app rather than only an explanation or static document. Observe its authoring preview.
@@ -86,7 +90,7 @@ Cowork fits broader work tasks where creating an app is part of getting the work
 
    ```
    Keep the app and fixture unchanged. Change the visible app title to
-   "LAB666 Onboarding — Cowork v2" and add this sentence below it:
+   "LAB668 Onboarding — Cowork v2" and add this sentence below it:
    "Practice checklist: fictional data; session edits may reset."
    Keep all existing interactions working.
    ```
