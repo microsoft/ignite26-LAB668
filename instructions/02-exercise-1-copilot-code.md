@@ -154,6 +154,8 @@ Build, publish, and then revise the same app in this exercise.
     ![Completion progress bar showing 25 percent with one of four tasks complete](../img/01.13-completion-progress-bar.png)
 
 1. In the Copilot Code conversation, type +++Publish it live+++ and send the prompt to publish the app with the latest changes. Wait for confirmation that publishing has completed.
+    ![Publish it live prompt sent in the Copilot Code conversation](../img/01.14-publish-progress-revision.png)
+
 1. After the revision is published, reopen the app. Verify the progress percentage updates after a status change and a new task, and confirm the existing **New task** modal and **Cancel** option still work.
 
 ## Exercise end
