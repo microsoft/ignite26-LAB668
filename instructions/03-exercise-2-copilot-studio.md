@@ -73,7 +73,7 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
     ![Generate and preview](../img/02.2-generate-and-preview.png)
 
 1. Confirm “Fictional lab data” is visible and no enterprise connection was required. Keep the app self-contained for this exercise.
-1. Use Studio's publishing button to host the app in Copilot Managed Runtime. Now you can review the intended audience and capture the hosted deployment link.
+1. Select the Publish button on the top right to host the app in Copilot Managed Runtime. Now you can review the intended audience and capture the hosted deployment link.
     ![Share and play](../img/02.3-share-button.png)
 
 1. Open that link independently in a new tab or click play to see the published app.
