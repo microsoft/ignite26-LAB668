@@ -77,17 +77,34 @@ Build, publish, and then revise the same app in this exercise.
 
     Once the request, brief, and JSON data are all in the same prompt, send it to Copilot Code.
 
-    ![Enter prompt](../img/01.2-use-app-skill-and-enter-prompt.png)
+    ![Enter the managed-app prompt in Copilot Code](../img/01.2-enter-managed-app-prompt-in-code.png)
 
-1. Allow generation to finish. Confirm you received an interactive app rather than only an explanation or static document. Observe its authoring preview.
-    ![Generating app](../img/01.3-allow-to-finish.png)
+1. After sending the prompt, confirm the activity shows **Used skill app-generation**. Allow generation to finish, then confirm you received an interactive app rather than only an explanation or static document, and observe its authoring preview. If the activity is not shown, ask the facilitator how to proceed; do not try an undocumented command to trigger it.
+    ![Copilot Code showing the app-generation skill activity](../img/01.3-app-generation-skill-activity.png)
 
-1. Run a standard preview test, ensuring everything is working. If needed, type one focused correction such as +++Keep the existing app. Fix only the failing checklist test and preserve the fixture and scope.+++
-    ![Generating app](../img/01.4-standard-preview.png)
+1. If the app doesn't open to the side, select **Open** at the bottom of the chat conversation or select **Open LAB668 Onboarding** under **Output**.
+    ![Open the generated LAB668 Onboarding app](../img/01.4-open-lab668-onboarding.png)
+
+1. **Optional:** Expand the app by selecting the expand icon highlighted at the upper-right of the Preview pane.
+    ![Expand the app in the Preview pane](../img/01.5-expand-app-preview.png)
+
+1. When you're ready to return to the conversation, select the restore-size icon highlighted below to return the app canvas to its previous size.
+    ![Restore the app canvas to its previous size](../img/01.6-restore-preview-size.png)
+
+1. Run a standard preview test, ensuring everything is working. Then request this focused task-form change:
+
+    ```
+    Keep the existing app and fixture unchanged.
+    Move the existing task form into an accessible modal opened by a **New task** button with a Cancel option.
+    Preserve all existing interactions.
+    ```
+
+1. Preview the change. Confirm **New task** opens the form in a modal that can be operated with the keyboard, and **Cancel** closes it without adding a task. Submit a task and confirm it appears; verify filtering and status editing still work.
+    ![Generating app](../img/01.7-standard-preview.png)
 
 1. Before publishing, ask the facilitator to confirm the currently supported Copilot Code deployment flow for this lab. Use only that confirmed flow to deploy to Copilot Managed Runtime; if it is unavailable or unconfirmed, pause instead of guessing at controls. Confirm deployment completed; a preview or source-code update is not a confirmed hosted deployment.
 1. Open the hosted deployment link provided by the confirmed deployment flow in a new browser tab. Use the same lab account if needed, and confirm the app looks and works as expected.
-    ![Open in browser](../img/01.5-open-in-browser.png)
+    ![Open in browser](../img/01.8-open-in-browser.png)
 
 1. Return to authoring and request this small change:
 
@@ -98,29 +115,28 @@ Build, publish, and then revise the same app in this exercise.
     Keep all existing interactions working.
     ```
 
-    ![Authoring change](../img/01.6-authoring-change.png)
+    ![Authoring change](../img/01.9-authoring-change.png)
 
 1. Confirm the new title and sentence in preview.
 1. Use the confirmed deployment flow to publish the revision. Then reopen or refresh the hosted deployment link independently of authoring. Confirm “Code v2” and the new sentence appear, then test filtering and adding a task again.
-    ![Refresh after publish](../img/01.7-refresh-after-publish.png)
+    ![Refresh after publish](../img/01.10-refresh-after-publish.png)
 
 1. Check the title.
-    ![Confirm changes](../img/01.8-confirm-changes.png)
+    ![Confirm changes](../img/01.11-confirm-changes.png)
 
 1. Return to authoring and request this final revision:
 
     ```
     Keep the existing app and fixture unchanged.
     Add a progress bar showing the percentage of tasks marked Complete; update it when tasks are added or their status changes.
-    Add a **New task** button that opens the existing task form in an accessible modal with a Cancel option.
     Preserve all existing interactions.
     ```
 
-1. Preview the revision. Confirm the progress bar initially shows 25% for the fixture's one completed task out of four. Change a task's status and add a task using **New task**; confirm the percentage updates after each change and existing filtering and status editing still work. Verify the modal can be operated with the keyboard, and that **Cancel** closes it without adding a task.
-1. Use the confirmed deployment flow to publish the revision, then reopen the hosted link. Verify the progress percentage updates after a status change and a new task, and confirm the **New task** modal and **Cancel** option work there too.
+1. Preview the revision. Confirm the progress bar initially shows 25% for the fixture's one completed task out of four. Change a task's status and add a task using the existing **New task** button; confirm the percentage updates after each change and existing filtering and status editing still work.
+1. Use the confirmed deployment flow to publish the revision, then reopen the hosted link. Verify the progress percentage updates after a status change and a new task, and confirm the existing **New task** modal and **Cancel** option still work.
 
 ## Exercise end
 
-You built and published an app with Copilot Code, updated its title, and added a completion progress bar and an accessible **New task** modal. You reopened the hosted app to confirm the percentage updates and the task interactions work.
+You built and published an app with Copilot Code, updated its title, moved task creation into an accessible **New task** modal, and added a completion progress bar. You reopened the hosted app to confirm the percentage updates and task interactions work.
 
 Select **Next** to continue to the next exercise.
