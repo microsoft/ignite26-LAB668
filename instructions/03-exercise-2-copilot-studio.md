@@ -8,7 +8,7 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
 1. Select **App** from the homepage.
     ![Select the App card](../img/02.0-select-app-card.png)
 
-1. Type +++Create LAB668 Onboarding - Copilot Studio as a managed app.+++ Press **Shift + Enter** to insert a new line without sending the prompt. Then copy the entire **App brief text** block below and paste it into the same prompt. Copy the entire **JSON demo data fixture** block and paste it after the brief. Copy only the contents of each block, not the backticks. Create a separate app rather than importing a previous exercise's app.
+1. Type +++Create LAB668 Onboarding - Studio as a managed app.+++ Press **Shift + Enter** to insert a new line without sending the prompt. Then copy the entire **App brief text** block below and paste it into the same prompt. Copy the entire **JSON demo data fixture** block and paste it after the brief. Copy only the contents of each block, not the backticks. Create a separate app rather than importing a previous exercise's app.
 
     **App brief text**
 
