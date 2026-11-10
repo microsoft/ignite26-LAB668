@@ -107,6 +107,8 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
 
 1. Preview the revision, publish it, and reopen the hosted link to confirm the switch works in both modes.
 
+1. **Optional:** Return to authoring and select the **Code view** icon (`</>`) to inspect the generated code. Open the `src` folder and select `App.tsx` to view one of the generated files. Feel free to inspect the other source files.
+
 ## Exercise end
 
 You built and published a separate app with Copilot Studio, then added a light/dark mode switch as a revision. You reopened the hosted app to confirm the switch works in both modes.
