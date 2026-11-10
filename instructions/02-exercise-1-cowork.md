@@ -7,12 +7,12 @@ Cowork fits broader work tasks where creating an app is part of getting the work
 1. Go to +++https://copilot.cloud.microsoft/home+++
 1. Sign in using the username and Temporary Access Pass below.
 
-    Username: +++@lab.CloudCredential(WWLM365E7).AdministrativeUsername+++  
-    Temporary Access Pass: +++@lab.Variable(TAP)+++
+    **Username:** +++@lab.CloudCredential(WWLM365E7).AdministrativeUsername+++<br />
+    **Temporary Access Pass:** +++@lab.Variable(TAP)+++
 
     If a welcome screen appears, click **X** to close it and continue.
 
-1. Select the Cowork button.
+1. Select the **Cowork** button.
     ![Select Cowork](../img/01.1-select-cowork-button.png)
 
 1. In the Cowork prompt box, type +++/app+++ to select app creation.
@@ -85,7 +85,7 @@ Cowork fits broader work tasks where creating an app is part of getting the work
 1. Run a standard preview test, ensuring everything is working. If needed, type one focused correction such as +++Keep the existing app. Fix only the failing checklist test and preserve the fixture and scope.+++
     ![Generating app](../img/01.4-standard-preview.png)
 
-1. If your app was not published, click publish to deploy to Copilot Managed Runtime, making your app hosted, secure, governed and shareable.
+1. If your app was not published, click **Publish** to deploy to Copilot Managed Runtime, making your app hosted, secure, governed and shareable.
 1. Click **Open in browser**. This will then open it in a new browser tab (make sure you're using the same lab account if you cannot access), confirm the app looks and works the same.
     ![Open in browser](../img/01.5-open-in-browser.png)
 
