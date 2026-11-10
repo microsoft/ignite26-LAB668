@@ -2,9 +2,9 @@
 
 **Focus:** Create apps and publish to Microsoft Copilot Managed Runtime, starting from familiar Microsoft experiences or third-party.
 
-In this lab, you'll build interactive apps in Cowork and Copilot Studio, publish them to Copilot Managed Runtime (CMR), and open them outside the authoring preview. Each exercise uses the same fictional scenario to create a separate app. No manual transfer between products or prior coding experience is required.
+In this lab, you'll build interactive apps in Copilot Code and Copilot Studio, publish them to Copilot Managed Runtime (CMR), and open them outside the authoring preview. Each exercise uses the same fictional scenario to create a separate app. No manual transfer between products or prior coding experience is required.
 
-The hands-on exercises focus on Cowork and Copilot Studio. You'll also learn how other entry points, including Code, and the SDK and CLI fit into the broader development experience. SDK and CLI coverage is presenter-led; no local installation is required.
+The hands-on exercises focus on Copilot Code and Copilot Studio. You'll also learn how the SDK and CLI fit into the broader development experience. SDK and CLI coverage is presenter-led; no local installation is required.
 
 Your facilitator will provide the lab account and access instructions for the features available in the session.
 
@@ -12,7 +12,7 @@ Your facilitator will provide the lab account and access instructions for the fe
 
 By the end, you should be able to:
 
-- Choose an authoring entry point based on intent: work tasks in Cowork or enterprise solutions in Copilot Studio.
+- Choose an authoring entry point for app building: Copilot Code or Copilot Studio.
 - Create, preview, test, and publish a supported interactive app.
 - Distinguish an authoring preview, editable source, and a hosted deployment.
 - Make a visible change and verify it after republishing.
@@ -28,7 +28,7 @@ Times are elapsed minutes from the start of the session.
 | --- | ---: | --- |
 | 00–08 | 8 | Sign in, access check, and introduction |
 | 03–23 | 15 | Overview |
-| 23–43 | 20 | Exercise 1: Cowork create, test, publish, iterate, and republish |
+| 23–43 | 20 | Exercise 1: Copilot Code create, test, publish, iterate, and republish |
 | 43–63 | 20 | Exercise 2: Copilot Studio create, test, and publish |
 | 63–68 | 5 | Hosted access/sharing check, SDK/CLI bridge, administration |
 | 68–75 | 7 | Completion check, recap, and cleanup guidance |

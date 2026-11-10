@@ -21,7 +21,7 @@ Get hands-on with Copilot Managed Runtime and learn how to bring apps built with
 
 Open the [attendee instructions](instructions/README.md) and follow the
 facilitator's guidance. Your facilitator will provide the lab account and
-current access details for Cowork and Copilot Studio.
+current access details for Copilot Code and Copilot Studio.
 
 #### On your own
 
@@ -39,7 +39,6 @@ By the end of this session, you will be able to:
 ### 💻 Technologies used
 
 - Copilot Studio
-- Copilot Cowork
 - Copilot Code
 - Copilot Managed Runtime (SDK and CLI)
 - M365

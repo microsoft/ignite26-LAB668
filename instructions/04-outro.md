@@ -22,7 +22,7 @@ The presenters will, using an approved administrator account, will show the rele
 
 - [ ] I opened at least one app I deployed at a hosted link outside authoring preview.
 - [ ] I tested fixture counts, filtering, task creation, and status editing.
-- [ ] I verified the Cowork revision after republishing, or recorded why it was not completed.
+- [ ] I verified the Copilot Code revision after republishing, or recorded why it was not completed.
 - [ ] I can explain preview versus deployment, and app sharing versus data rights.
 
 Keep a private note of your app titles and hosted links. Remove only your own lab apps and sharing grants through supported lifecycle controls if instructed. Do not delete prepared shared apps, data sources, or tenant settings. The organizer supplies the retention policy; there is no scripted cleanup in this guide.
@@ -37,7 +37,7 @@ Keep a private note of your app titles and hosted links. Remove only your own la
 | Hosted app still shows the old title | Confirm republish completed and reopen the current deployment link |
 | Connector asks for unexpected consent | Stop; core exercises require no connector or additional permissions |
 
-Rehearse both exercises with an attendee-equivalent account. Measure generation, publish, and Cowork republish against the cutoffs; verify fixture tests, permissions, and independent hosted access. Check the Studio feature gate explicitly. Prepare separate fallback apps in advance, including the Cowork before/after revision.
+Rehearse both exercises with an attendee-equivalent account. Measure generation, publish, and Copilot Code republish against the cutoffs; verify fixture tests, permissions, and independent hosted access. Check the Studio feature gate explicitly. Prepare separate fallback apps in advance, including the Copilot Code before/after revision.
 
 ### Continue learning
 
