@@ -107,7 +107,7 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
 
 1. Preview the revision, publish it, and reopen the hosted link to confirm the switch works in both modes.
 
-1. **Optional:** Return to authoring and select the **Code view** icon (`</>`) to inspect the generated code. Open the `src` folder and select `App.tsx` to view one of the generated files. Feel free to inspect the other source files.
+1. **Optional:** Return to authoring and select the **Code view** icon (`</>`) to inspect the generated code. Open the `src` folder and select `App.tsx` to view one of the generated files. Feel free to inspect the other source files. To switch back to the app view, select the **App preview** icon.
 
 ## Exercise end
 
