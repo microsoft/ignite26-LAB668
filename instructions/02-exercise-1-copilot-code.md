@@ -1,8 +1,8 @@
-# 1 - Build the app with Cowork
+# 1 - Build the app with Copilot Code
 
-## Exercise 1 — Cowork:
+## Exercise 1 — Copilot Code:
 
-Cowork fits broader work tasks where creating an app is part of getting the work done. Build, publish, and then revise the same app in this exercise.
+Build, publish, and then revise the same app in this exercise.
 
 1. Go to +++https://copilot.cloud.microsoft/home+++
 1. Sign in using the username and Temporary Access Pass below.
@@ -12,11 +12,11 @@ Cowork fits broader work tasks where creating an app is part of getting the work
 
     If a welcome screen appears, click **X** to close it and continue.
 
-1. Select the **Cowork** button.
-    ![Select Cowork](../img/01.1-select-cowork-button.png)
+1. Select the **Code** button shown in the screenshot.
+    ![Select the Code button](../img/01.1-select-code-button.png)
 
-1. In the Cowork prompt box, type +++/app+++ to select app creation.
-1. Copy the entire **App brief text** block below and paste it into the Cowork prompt box. Copy the entire **JSON demo data fixture** block and paste it after the brief in the same prompt. Copy only the contents of each block, not the backticks. Do not send the prompt yet.
+1. In the Copilot Code prompt box, type +++Create LAB668 Onboarding - Code as a managed app+++. Press **Shift + Enter** to insert a new line without sending the prompt.
+1. Copy the entire **App brief text** block below and paste it after the request in the same prompt. Copy the entire **JSON demo data fixture** block and paste it after the brief. Copy only the contents of each block, not the backticks. Do not send the prompt yet.
 
     **App brief text**
 
@@ -75,7 +75,7 @@ Cowork fits broader work tasks where creating an app is part of getting the work
     ]
     ```
 
-    Once the brief and JSON data are both in the same prompt, send it to Cowork.
+    Once the request, brief, and JSON data are all in the same prompt, send it to Copilot Code.
 
     ![Enter prompt](../img/01.2-use-app-skill-and-enter-prompt.png)
 
@@ -85,15 +85,15 @@ Cowork fits broader work tasks where creating an app is part of getting the work
 1. Run a standard preview test, ensuring everything is working. If needed, type one focused correction such as +++Keep the existing app. Fix only the failing checklist test and preserve the fixture and scope.+++
     ![Generating app](../img/01.4-standard-preview.png)
 
-1. If your app was not published, click **Publish** to deploy to Copilot Managed Runtime, making your app hosted, secure, governed and shareable.
-1. Click **Open in browser**. This will then open it in a new browser tab (make sure you're using the same lab account if you cannot access), confirm the app looks and works the same.
+1. Before publishing, ask the facilitator to confirm the currently supported Copilot Code deployment flow for this lab. Use only that confirmed flow to deploy to Copilot Managed Runtime; if it is unavailable or unconfirmed, pause instead of guessing at controls. Confirm deployment completed; a preview or source-code update is not a confirmed hosted deployment.
+1. Open the hosted deployment link provided by the confirmed deployment flow in a new browser tab. Use the same lab account if needed, and confirm the app looks and works as expected.
     ![Open in browser](../img/01.5-open-in-browser.png)
 
 1. Return to authoring and request this small change:
 
     ```
     Keep the app and fixture unchanged. Change the visible app title to
-    "LAB668 Onboarding — Cowork v2" and add this sentence below it:
+    "LAB668 Onboarding — Code v2" and add this sentence below it:
     "Practice checklist: fictional data; session edits may reset."
     Keep all existing interactions working.
     ```
@@ -101,7 +101,7 @@ Cowork fits broader work tasks where creating an app is part of getting the work
     ![Authoring change](../img/01.6-authoring-change.png)
 
 1. Confirm the new title and sentence in preview.
-1. Click publish. Then, once published, reopen or refresh the current hosted deployment link independently of authoring. Selected "refresh" on the updated app pop-up. Confirm “Cowork v2” and the new sentence appear, then test filtering and adding a task again.
+1. Use the confirmed deployment flow to publish the revision. Then reopen or refresh the hosted deployment link independently of authoring. Confirm “Code v2” and the new sentence appear, then test filtering and adding a task again.
     ![Refresh after publish](../img/01.7-refresh-after-publish.png)
 
 1. Check the title.
@@ -111,14 +111,16 @@ Cowork fits broader work tasks where creating an app is part of getting the work
 
     ```
     Keep the existing app and fixture unchanged.
-    Add a light/dark mode switch so users can choose either appearance.
+    Add a progress bar showing the percentage of tasks marked Complete; update it when tasks are added or their status changes.
+    Add a **New task** button that opens the existing task form in an accessible modal with a Cancel option.
     Preserve all existing interactions.
     ```
 
-1. Preview the revision, publish it, and reopen the hosted link to confirm the switch works in both modes.
+1. Preview the revision. Confirm the progress bar initially shows 25% for the fixture's one completed task out of four. Change a task's status and add a task using **New task**; confirm the percentage updates after each change and existing filtering and status editing still work. Verify the modal can be operated with the keyboard, and that **Cancel** closes it without adding a task.
+1. Use the confirmed deployment flow to publish the revision, then reopen the hosted link. Verify the progress percentage updates after a status change and a new task, and confirm the **New task** modal and **Cancel** option work there too.
 
 ## Exercise end
 
-You built and published an app with Cowork, updated its title, and added a light/dark mode switch. You reopened the hosted app to confirm your changes and interactions work.
+You built and published an app with Copilot Code, updated its title, and added a completion progress bar and an accessible **New task** modal. You reopened the hosted app to confirm the percentage updates and the task interactions work.
 
 Select **Next** to continue to the next exercise.
