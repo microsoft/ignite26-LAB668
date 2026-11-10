@@ -19,7 +19,7 @@ By the end, you should be able to:
 - Create, preview, test, and publish separate interactive apps with Copilot Code and Copilot Studio.
 - Revise the Copilot Code app with a **New task** modal and a completion progress bar, then verify the published changes.
 - Explore device previews and add and test a light/dark mode switch in the Copilot Studio app.
-- Optionally inspect generated source code in Copilot Studio.
+- Inspect generated source code in Copilot Studio.
 - Distinguish authoring preview from a published app, and explain how publishing differs from sharing and data access.
 
 These experiences overlap. The choice of starting point does not establish different intrinsic app capabilities or automatic cross-client handoff.
