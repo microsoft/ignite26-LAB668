@@ -8,7 +8,7 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
 1. Select **App** from the homepage.
     ![Select the App card](../img/02.0-select-app-card.png)
 
-1. Type +++In Copilot Studio, create LAB668 Onboarding — Studio as a managed app.+++ Press **Shift + Enter** to insert a new line without sending the prompt. Then copy the entire **App brief text** block below and paste it into the same prompt. Copy the entire **JSON demo data fixture** block and paste it after the brief. Copy only the contents of each block, not the backticks. Create a separate app rather than importing a previous exercise's app.
+1. Type +++Create LAB668 Onboarding - Copilot Studio as a managed app.+++ Press **Shift + Enter** to insert a new line without sending the prompt. Then copy the entire **App brief text** block below and paste it into the same prompt. Copy the entire **JSON demo data fixture** block and paste it after the brief. Copy only the contents of each block, not the backticks. Create a separate app rather than importing a previous exercise's app.
 
     **App brief text**
 
@@ -78,15 +78,15 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
 
 1. In the interactive app preview, use **Add a task** to create two fictional onboarding tasks:
 
-    1. Enter **Schedule welcome meeting** as the task name.
-    1. Enter **Team lead** as the owner role.
+    1. Enter +++Schedule welcome meeting+++ as the task name.
+    1. Enter +++Team lead+++ as the owner role.
     1. Select **Not started** as the status, or keep it if already selected.
     1. Click **Add task**.
-    1. Repeat these steps to add **Set up workstation** with owner role **IT coordinator** and status **In progress**.
+    1. Repeat these steps to add +++Set up workstation+++ with owner role +++IT coordinator+++ and status **In progress**.
 
     Confirm both tasks appear in the list and the total task count increases by two. These preview edits may reset when you open the hosted app.
 
-1. Select the Publish button on the top right to host the app in Copilot Managed Runtime. Now you can review the intended audience and capture the hosted deployment link.
+1. Select the **Publish** button on the top right to host the app in Copilot Managed Runtime. Now you can review the intended audience and capture the hosted deployment link.
     ![Share and play](../img/02.3-share-button.png)
 
 1. Once publishing finishes, open that link independently in a new tab or click play to see the published app.
