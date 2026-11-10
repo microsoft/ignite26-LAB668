@@ -78,11 +78,11 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
 
 1. In the interactive app preview, use **Add a task** to create two fictional onboarding tasks:
 
-    1. Enter **Schedule welcome meeting** as the task name.
-    1. Enter **Team lead** as the owner role.
+    1. Enter +++Schedule welcome meeting+++ as the task name.
+    1. Enter +++Team lead+++ as the owner role.
     1. Select **Not started** as the status, or keep it if already selected.
     1. Click **Add task**.
-    1. Repeat these steps to add **Set up workstation** with owner role **IT coordinator** and status **In progress**.
+    1. Repeat these steps to add +++Set up workstation+++ with owner role +++IT coordinator+++ and status **In progress**.
 
     Confirm both tasks appear in the list and the total task count increases by two. These preview edits may reset when you open the hosted app.
 
