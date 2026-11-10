@@ -117,4 +117,8 @@ Cowork fits broader work tasks where creating an app is part of getting the work
 
 1. Preview the revision, publish it, and reopen the hosted link to confirm the switch works in both modes.
 
-**Checkpoint:** A hosted app opens independently of the Cowork preview and shows the revision with working interactions. Preview alone is not completion; iIf publishing fails, observe the prepared hosted app by the lab providers.
+## Exercise end
+
+You built and published an app with Cowork, updated its title, and added a light/dark mode switch. You reopened the hosted app to confirm your changes and interactions work.
+
+Select **Next** to continue to the next exercise.
