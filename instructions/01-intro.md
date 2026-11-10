@@ -36,7 +36,7 @@ Times are elapsed minutes from the start of the session.
 
 ## Getting started:
 
-1. Log in to the Virtual Machine using the password +++@lab.VirtualMachine(Win11-Pro-Base(Ignite26)).Password+++
+1. Log in to the Virtual Machine using the password +++@lab.VirtualMachine(LAB668).Password+++
 1. Open Microsoft Edge (a shortcut is on the desktop)
 
    > **Note:** To ensure text is entered accurately, avoid interacting or clicking in the VM until the text has finished being typed.
