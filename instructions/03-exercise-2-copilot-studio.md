@@ -4,8 +4,6 @@
 
 Copilot Studio supports enterprise agents, workflows and now apps. This exercise specifically uses **app creation**, not agent or workflow creation.
 
-> **Feature gate:** If users are unable to create using MCS, this segment becomes a facilitator demonstration using the app brief and fixture below.
-
 1. Open +++https://copilotstudio.microsoft.com/+++. Confirm you are in the lab tenant.
 1. Select App from the homepage.
 1. Type +++In Copilot Studio, create LAB668 Onboarding — Studio as a managed app.+++ Then copy the entire **App brief text** block below and paste it into the same prompt. Copy the entire **JSON demo data fixture** block and paste it after the brief. Copy only the contents of each block, not the backticks. Create a separate app rather than importing a previous exercise's app.
