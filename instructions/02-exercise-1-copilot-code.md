@@ -161,6 +161,6 @@ Build, publish, and then revise the same app in this exercise.
 
 ## Exercise end
 
-You built and published an app with Copilot Code, updated its title, moved task creation into an accessible **New task** modal, and added a completion progress bar. You reopened the hosted app to confirm the percentage updates and task interactions work.
+You built and published an app with Copilot Code, updated its title, moved task creation into an accessible **New task** modal, and added a completion progress bar. You reopened the app to confirm the percentage updates and task interactions work.
 
 Select **Next** to continue to the next exercise.
