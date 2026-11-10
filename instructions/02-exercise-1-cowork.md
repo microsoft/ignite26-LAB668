@@ -25,6 +25,7 @@ Cowork fits broader work tasks where creating an app is part of getting the work
    Status choices must be Not started, In progress, and Complete.
    Show the total task count and counts by status. Allow filtering by status,
    adding a task, and editing a task's status. Require a nonempty task name.
+   Add a light/dark mode switch so users can choose either appearance.
    Keep the interface small, readable, and keyboard usable.
 
    Start with the pasted JSON fixture. Label the screen "Fictional lab data".
