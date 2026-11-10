@@ -88,4 +88,8 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
 
 1. Preview the revision, publish it, and reopen the hosted link to confirm the switch works in both modes.
 
-**Checkpoint:** A Studio-authored supported app runs at its hosted link, or the worksheet honestly records a demonstration-only outcome. Apps built in Studio can use connectors, but cannot call agents or workflows from the app.
+## Exercise end
+
+You built and published a separate app with Copilot Studio, then added a light/dark mode switch as a revision. You reopened the hosted app to confirm the switch works in both modes.
+
+Select **Next** to continue to the following section.
