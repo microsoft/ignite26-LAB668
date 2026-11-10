@@ -75,10 +75,8 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
     ![Generate and preview](../img/02.2-generate-and-preview.png)
 
 1. Confirm “Fictional lab data” is visible and no enterprise connection was required. Keep the app self-contained for this exercise.
-1. Select the Publish button on the top right to host the app in Copilot Managed Runtime. Now you can review the intended audience and capture the hosted deployment link.
-    ![Share and play](../img/02.3-share-button.png)
 
-1. While publishing is in progress, stay in the interactive app preview. In **Add a task**:
+1. In the interactive app preview, use **Add a task** to create two fictional onboarding tasks:
 
     1. Enter **Schedule welcome meeting** as the task name.
     1. Enter **Team lead** as the owner role.
@@ -87,6 +85,9 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
     1. Repeat these steps to add **Set up workstation** with owner role **IT coordinator** and status **In progress**.
 
     Confirm both tasks appear in the list and the total task count increases by two. These preview edits may reset when you open the hosted app.
+
+1. Select the Publish button on the top right to host the app in Copilot Managed Runtime. Now you can review the intended audience and capture the hosted deployment link.
+    ![Share and play](../img/02.3-share-button.png)
 
 1. Once publishing finishes, open that link independently in a new tab or click play to see the published app.
 
