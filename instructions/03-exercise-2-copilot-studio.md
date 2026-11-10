@@ -4,8 +4,10 @@
 
 Copilot Studio supports enterprise agents, workflows and now apps. This exercise specifically uses **app creation**, not agent or workflow creation.
 
-1. Open +++https://copilotstudio.microsoft.com/+++. Confirm you are in the lab tenant.
-1. Select App from the homepage.
+1. Open +++https://copilotstudio.microsoft.com/+++.
+1. Select **App** from the homepage.
+    ![Select the App card](../img/02.0-select-app-card.png)
+
 1. Type +++In Copilot Studio, create LAB668 Onboarding — Studio as a managed app.+++ Press **Shift + Enter** to insert a new line without sending the prompt. Then copy the entire **App brief text** block below and paste it into the same prompt. Copy the entire **JSON demo data fixture** block and paste it after the brief. Copy only the contents of each block, not the backticks. Create a separate app rather than importing a previous exercise's app.
 
     **App brief text**
@@ -76,7 +78,9 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
 1. Select the Publish button on the top right to host the app in Copilot Managed Runtime. Now you can review the intended audience and capture the hosted deployment link.
     ![Share and play](../img/02.3-share-button.png)
 
-1. Open that link independently in a new tab or click play to see the published app.
+1. While publishing is in progress, stay in the interactive app preview and use **Add a task** to add two fictional onboarding tasks. Enter a task name, owner role, and status for each. Confirm both tasks appear in the list and the total task count increases by two. These preview edits may reset when you open the hosted app.
+
+1. Once publishing finishes, open that link independently in a new tab or click play to see the published app.
 
 1. Return to authoring and request this final revision:
 
