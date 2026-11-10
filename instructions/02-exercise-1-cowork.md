@@ -9,6 +9,9 @@ Cowork fits broader work tasks where creating an app is part of getting the work
 
    Username: +++@lab.CloudCredential(WWLM365E7).AdministrativeUsername+++  
    Temporary Access Pass: +++@lab.Variable(TAP)+++
+
+    If a welcome screen appears, click **X** to close it and continue.
+
 1. Select the Cowork button.
    ![Select Cowork](../img/01.1-select-cowork-button.png)
 
