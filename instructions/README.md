@@ -5,6 +5,6 @@ Build interactive apps in Copilot Code and Copilot Studio, publish them to Copil
 1. [Intro](01-intro.md) - Learning outcomes, schedule, scenario, and resource checks.
 1. [Exercise 1 - Copilot Code](02-exercise-1-copilot-code.md) - Shared app brief and fixture; create, test, publish, iterate, and republish.
 1. [Exercise 2 - Copilot Studio](03-exercise-2-copilot-studio.md) - Create, test, and publish a separate app.
-1. [Outro](04-outro.md) - Hosted access and sharing, SDK/CLI bridge, governance, completion checks, and troubleshooting.
+1. [Outro](04-outro.md) - Lab recap, publishing and sharing, and the SDK/CLI path.
 
 Start with the [intro](01-intro.md).
