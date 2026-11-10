@@ -4,6 +4,7 @@
 
 Build, publish, and then revise the same app in this exercise.
 
+1. Open Microsoft Edge (a shortcut is on the desktop).
 1. Go to +++https://copilot.cloud.microsoft/home+++
 1. Sign in using the username and Temporary Access Pass below.
 
