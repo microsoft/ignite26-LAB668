@@ -86,7 +86,7 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
 
     Confirm both tasks appear in the list and the total task count increases by two. These preview edits may reset when you open the hosted app.
 
-1. Select the Publish button on the top right to host the app in Copilot Managed Runtime. Now you can review the intended audience and capture the hosted deployment link.
+1. Select the **Publish** button on the top right to host the app in Copilot Managed Runtime. Now you can review the intended audience and capture the hosted deployment link.
     ![Share and play](../img/02.3-share-button.png)
 
 1. Once publishing finishes, open that link independently in a new tab or click play to see the published app.
