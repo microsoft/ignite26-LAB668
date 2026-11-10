@@ -91,6 +91,10 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
 
 1. While publishing completes, review the default **full-screen** layout. Select the **Device preview** icon (a phone and monitor) in the toolbar once to switch to the **Tablet** layout, then select the same icon again to switch to the **Mobile** layout. Inspect each layout and confirm the app remains clear and usable at each size.
 
+    ![Device preview icon in the toolbar](../img/02.4-device-preview-icon.png)
+
+    ![App in the mobile preview layout](../img/02.5-mobile-preview.png)
+
 1. Once publishing finishes, open that link independently in a new tab or click play to see the published app.
 
 1. Return to authoring and request this final revision:
