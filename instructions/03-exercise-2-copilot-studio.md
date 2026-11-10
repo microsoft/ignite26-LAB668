@@ -6,7 +6,7 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
 
 1. Open +++https://copilotstudio.microsoft.com/+++. Confirm you are in the lab tenant.
 1. Select App from the homepage.
-1. Type +++In Copilot Studio, create LAB668 Onboarding — Studio as a managed app.+++ Then copy the entire **App brief text** block below and paste it into the same prompt. Copy the entire **JSON demo data fixture** block and paste it after the brief. Copy only the contents of each block, not the backticks. Create a separate app rather than importing a previous exercise's app.
+1. Type +++In Copilot Studio, create LAB668 Onboarding — Studio as a managed app.+++ Press **Shift + Enter** to insert a new line without sending the prompt. Then copy the entire **App brief text** block below and paste it into the same prompt. Copy the entire **JSON demo data fixture** block and paste it after the brief. Copy only the contents of each block, not the backticks. Create a separate app rather than importing a previous exercise's app.
 
     **App brief text**
 
@@ -73,7 +73,7 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
     ![Generate and preview](../img/02.2-generate-and-preview.png)
 
 1. Confirm “Fictional lab data” is visible and no enterprise connection was required. Keep the app self-contained for this exercise.
-1. Use Studio's publishing button to host the app in Copilot Managed Runtime. Now you can review the intended audience and capture the hosted deployment link.
+1. Select the Publish button on the top right to host the app in Copilot Managed Runtime. Now you can review the intended audience and capture the hosted deployment link.
     ![Share and play](../img/02.3-share-button.png)
 
 1. Open that link independently in a new tab or click play to see the published app.
