@@ -89,6 +89,8 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
 1. Select the **Publish** button on the top right to host the app in Copilot Managed Runtime. Now you can review the intended audience and capture the hosted deployment link.
     ![Share and play](../img/02.3-share-button.png)
 
+1. While publishing completes, select the **Device preview** icon (a phone and monitor) in the toolbar. Review the **Desktop**, **Tablet**, and **Mobile** variants and confirm the app remains clear and usable at each size.
+
 1. Once publishing finishes, open that link independently in a new tab or click play to see the published app.
 
 1. Return to authoring and request this final revision:
