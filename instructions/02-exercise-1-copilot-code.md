@@ -136,7 +136,7 @@ Build, publish, and then revise the same app in this exercise.
 
 1. Confirm the new title and sentence in preview.
 1. In the Copilot Code conversation, type +++Publish it live+++ and send the prompt to publish the app with the latest changes. Wait for confirmation that publishing has completed.
-1. Reopen or refresh the hosted deployment link independently of authoring. Confirm “Code v2” and the new sentence appear, then test filtering and adding a task again.
+1. Reopen or refresh the app independently of authoring. Confirm “Code v2” and the new sentence appear, then test filtering and adding a task again.
     ![Refresh after publish](../img/01.11-refresh-after-publish.png)
 
 1. Check the title.
@@ -151,7 +151,7 @@ Build, publish, and then revise the same app in this exercise.
     ```
 
 1. Preview the revision. Verify the progress percentage matches completed tasks divided by total tasks. For reference, the original four-task fixture yields 25%, while six tasks with one complete yield about 17%. Change a task's status and add a task using the existing **New task** button; confirm the percentage updates after each change and existing filtering and status editing still work.
-1. After the revision is published, reopen the hosted link. Verify the progress percentage updates after a status change and a new task, and confirm the existing **New task** modal and **Cancel** option still work.
+1. After the revision is published, reopen the app. Verify the progress percentage updates after a status change and a new task, and confirm the existing **New task** modal and **Cancel** option still work.
 
 ## Exercise end
 
