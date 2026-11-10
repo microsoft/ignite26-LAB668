@@ -28,7 +28,6 @@ Cowork fits broader work tasks where creating an app is part of getting the work
     Status choices must be Not started, In progress, and Complete.
     Show the total task count and counts by status. Allow filtering by status,
     adding a task, and editing a task's status. Require a nonempty task name.
-    Add a light/dark mode switch so users can choose either appearance.
     Keep the interface small, readable, and keyboard usable.
 
     Start with the pasted JSON fixture. Label the screen "Fictional lab data".
@@ -107,5 +106,15 @@ Cowork fits broader work tasks where creating an app is part of getting the work
 
 1. Check the title.
     ![Confirm changes](../img/01.8-confirm-changes.png)
+
+1. Return to authoring and request this final revision:
+
+    ```
+    Keep the existing app and fixture unchanged.
+    Add a light/dark mode switch so users can choose either appearance.
+    Preserve all existing interactions.
+    ```
+
+1. Preview the revision, publish it, and reopen the hosted link to confirm the switch works in both modes.
 
 **Checkpoint:** A hosted app opens independently of the Cowork preview and shows the revision with working interactions. Preview alone is not completion; iIf publishing fails, observe the prepared hosted app by the lab providers.
