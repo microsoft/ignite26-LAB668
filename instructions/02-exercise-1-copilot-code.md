@@ -118,10 +118,12 @@ Build, publish, and then revise the same app in this exercise.
 
     Confirm both tasks appear in the list and the total task count increases by two. These preview edits may reset when the app is reopened.
 
-13. When a hosted deployment link is available, open it in a new browser tab. Use the same lab account if needed, and confirm the app looks and works as expected.
-    ![Open in browser](../img/01.9-open-in-browser.png)
+13. Select **Publish** in the Preview pane. Wait for the **Your app is published** confirmation.
 
-14. Return to authoring and request this small change:
+14. In the publishing confirmation, select **Open app**. Use the same lab account if needed, and confirm the published app looks and works as expected.
+    ![Select Open app in the publishing confirmation](../img/01.9-open-in-browser.png)
+
+15. Return to authoring and request this small change:
 
     ```
     Keep the app and fixture unchanged. Change the visible app title to
@@ -132,14 +134,14 @@ Build, publish, and then revise the same app in this exercise.
 
     ![Authoring change](../img/01.10-authoring-change.png)
 
-15. Confirm the new title and sentence in preview.
-16. After the revision is published, reopen or refresh the hosted deployment link independently of authoring. Confirm “Code v2” and the new sentence appear, then test filtering and adding a task again.
+16. Confirm the new title and sentence in preview.
+17. After the revision is published, reopen or refresh the hosted deployment link independently of authoring. Confirm “Code v2” and the new sentence appear, then test filtering and adding a task again.
     ![Refresh after publish](../img/01.11-refresh-after-publish.png)
 
-17. Check the title.
+18. Check the title.
     ![Confirm changes](../img/01.12-confirm-changes.png)
 
-18. Return to authoring and request this final revision:
+19. Return to authoring and request this final revision:
 
     ```
     Keep the existing app and fixture unchanged.
@@ -147,8 +149,8 @@ Build, publish, and then revise the same app in this exercise.
     Preserve all existing interactions.
     ```
 
-19. Preview the revision. Verify the progress percentage matches completed tasks divided by total tasks. For reference, the original four-task fixture yields 25%, while six tasks with one complete yield about 17%. Change a task's status and add a task using the existing **New task** button; confirm the percentage updates after each change and existing filtering and status editing still work.
-20. After the revision is published, reopen the hosted link. Verify the progress percentage updates after a status change and a new task, and confirm the existing **New task** modal and **Cancel** option still work.
+20. Preview the revision. Verify the progress percentage matches completed tasks divided by total tasks. For reference, the original four-task fixture yields 25%, while six tasks with one complete yield about 17%. Change a task's status and add a task using the existing **New task** button; confirm the percentage updates after each change and existing filtering and status editing still work.
+21. After the revision is published, reopen the hosted link. Verify the progress percentage updates after a status change and a new task, and confirm the existing **New task** modal and **Cancel** option still work.
 
 ## Exercise end
 
