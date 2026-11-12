@@ -8,6 +8,7 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
 
 1. Open +++https://copilotstudio.microsoft.com/+++.
 1. Select **App** from the homepage.
+
     ![Select the App card](../img/02.0-select-app-card.png)
 
 ### Prepare the prompt
@@ -80,6 +81,7 @@ Create a separate app rather than importing a previous exercise's app. The promp
     **Optional:** Open [Create an app in Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/apps-experience/create-app) in a separate browser tab while you wait, then switch back to the Copilot Studio browser tab containing the app editor and conversation.
 
 1. Once generation finishes, test the interactive preview. Confirm the original four tasks appear, with a total of four, one **Complete**, one **In progress**, and two **Not started**. Test status filtering and editing, restore any changed status, and confirm an empty task name cannot be added. Check that the controls can be used with the keyboard. Request at most one focused correction, and wait for it to finish before continuing.
+
     ![Generate and preview](../img/02.2-generate-and-preview.png)
 
 1. Confirm “Fictional lab data” is visible and no enterprise connection was required. Keep the app self-contained for this exercise.
@@ -99,6 +101,7 @@ Create a separate app rather than importing a previous exercise's app. The promp
 1. Select the **Publish** button on the top right to host the app in Copilot Managed Runtime. Review the intended audience and capture the app link, but do not share the app with others in this lab.
 
     Publishing makes the requested version separately available; a working preview alone does not confirm publication. Wait for publishing to finish before using the app link to verify this version.
+
     ![Share and play](../img/02.3-share-button.png)
 
 1. While publishing completes, review the default **full-screen** layout. Select the **Device preview** icon (a phone and monitor) in the toolbar once to switch to the **Tablet** layout, then select the same icon again to switch to the **Mobile** layout. Inspect each layout and confirm the app remains clear and usable at each size.

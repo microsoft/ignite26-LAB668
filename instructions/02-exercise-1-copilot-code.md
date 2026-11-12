@@ -85,19 +85,23 @@ The prompt describes the desired app, its behaviors and accessibility, fictional
 ### Build and explore the app
 
 1. After sending the prompt, confirm the activity shows **Used skill app-generation**. If the activity is not visible, you might need to expand the activity in the chat so that Code shows you what it's doing behind the scenes.
+
     ![Copilot Code showing the app-generation skill activity](../img/01.3-app-generation-skill-activity.png)
 
     Generation builds the source files and an interactive preview. These may become available before the agent finishes; you can inspect them while it continues working.
 
 1. When the app is available under **Output**, select **Open LAB668 Onboarding** to inspect the preview while generation continues. If the app opens to the side automatically, use that preview. You can also select **Open** at the bottom of the chat conversation when available.
+
     ![Open the generated LAB668 Onboarding app](../img/01.4-open-lab668-onboarding.png)
 
     If **Output** or **Files** is not ready yet, wait and check again. **Optional:** Open [Build and publish apps to Copilot Managed Runtime](https://learn.microsoft.com/copilot/code/use-code#build-and-publish-apps-to-copilot-managed-runtime) in a separate browser tab while you wait, then switch back to the Copilot Code browser tab.
 
 1. **Optional:** Expand the app by selecting the expand icon highlighted at the upper-right of the Preview pane.
+
     ![Expand the app in the Preview pane](../img/01.5-expand-app-preview.png)
 
 1. If you expanded the preview, select the restore-size icon highlighted below to reveal the conversation and return the app canvas to its previous size.
+
     ![Restore the app canvas to its previous size](../img/01.6-restore-preview-size.png)
 
 1. Open **Files** when it becomes available. Locate the generated source files and open the relevant app source. Look for the checklist interface and the fictional tasks from the prompt; generated filenames and the way the data is represented may vary. Inspect only; no code edits are required. Then return to the app preview and conversation.
@@ -117,7 +121,9 @@ The prompt describes the desired app, its behaviors and accessibility, fictional
     ```
 
 1. Preview the change. Confirm **New task** opens the form in a modal that can be operated with the keyboard, and **Cancel** closes it without adding a task. Verify filtering and status editing still work, restoring any status you change.
+
     ![LAB668 Onboarding preview before opening the New task modal](../img/01.7-standard-preview.png)
+
     ![New task form displayed in an accessible modal](../img/01.8-new-task-modal.png)
 
 1. In the interactive app preview, use the **New task** modal to add two fictional onboarding tasks:
@@ -142,6 +148,7 @@ The prompt describes the desired app, its behaviors and accessibility, fictional
     Publishing makes the requested version separately available through Copilot Managed Runtime; a working preview alone does not confirm publication. **Optional:** Open [What is Copilot Managed Runtime](https://learn.microsoft.com/en-us/microsoft-365/managed-apps/) in a separate browser tab while you wait, then switch back to the Copilot Code browser tab to check the confirmation. Publishing is not sharing; do not share the app with others in this lab.
 
 1. In the publishing confirmation, select **Open app**. Use the same lab account if needed, and confirm the published app looks and works as expected.
+
     ![Select Open app in the publishing confirmation](../img/01.9-open-in-browser.png)
 
 ### Update and republish
@@ -160,9 +167,11 @@ The prompt describes the desired app, its behaviors and accessibility, fictional
 1. Confirm the new title and sentence in preview.
 1. In the Copilot Code conversation, type +++Publish it live+++ and send the prompt to publish the app with the latest changes. Wait for confirmation that publishing has completed.
 1. Switch to the browser tab containing the published app and reopen or refresh it. Confirm “Code v2” and the new sentence appear, then test filtering and adding a task again.
+
     ![Refresh after publish](../img/01.11-refresh-after-publish.png)
 
 1. Check the title.
+
     ![Confirm changes](../img/01.12-confirm-changes.png)
 
 ### Add and publish completion progress
@@ -176,9 +185,11 @@ The prompt describes the desired app, its behaviors and accessibility, fictional
     ```
 
 1. Preview the revision. Verify the progress percentage matches completed tasks divided by total tasks. For reference, the original four-task fixture yields 25%, while six tasks with one complete yield about 17%. Change a task's status and add a task using the existing **New task** button; confirm the percentage updates after each change and existing filtering and status editing still work.
+
     ![Completion progress bar showing 25 percent with one of four tasks complete](../img/01.13-completion-progress-bar.png)
 
 1. In the Copilot Code conversation, type +++Publish it live+++ and send the prompt to publish the app with the latest changes. Wait for confirmation that publishing has completed.
+
     ![Publish it live prompt sent in the Copilot Code conversation](../img/01.14-publish-progress-revision.png)
 
 1. After the revision is published, switch to the browser tab containing the published app and reopen or refresh it. Verify the progress percentage updates after a status change and a new task, and confirm the existing **New task** modal and **Cancel** option still work.
