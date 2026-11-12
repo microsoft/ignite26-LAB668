@@ -114,7 +114,7 @@ The prompt describes the desired app, its behaviors and accessibility, fictional
 
     ![Files highlighted in Workspace after the app preview is closed](../img/01.6b-workspace-files.png)
 
-    Locate the generated source files and open the relevant app source. If the source files are not ready yet, wait and check again. Look for the checklist interface and the fictional tasks from the prompt; generated filenames and the way the data is represented may vary. Inspect only; no code edits are required.
+    Locate the generated source files and open the relevant app source. Browse the generated code to see what was created, then continue with the remaining steps.
 
 1. Reopen the app by selecting **Open LAB668 Onboarding** under **Output** or **Open** in the conversation, then continue with the app preview and conversation.
 
