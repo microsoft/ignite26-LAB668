@@ -16,6 +16,7 @@ Build, publish, and then revise the same app in this exercise.
     If a welcome screen appears, click **X** to close it and continue.
 
 1. Select the **Code** button shown in the screenshot.
+
     ![Select the Code button](../img/01.1-select-code-button.png)
 
 ### Prepare the prompt
@@ -83,7 +84,7 @@ The prompt describes the desired app, its behaviors and accessibility, fictional
 
 ### Build and explore the app
 
-1. After sending the prompt, confirm the activity shows **Used skill app-generation**. If the activity is not shown, ask the facilitator how to proceed; do not try an undocumented command to trigger it.
+1. After sending the prompt, confirm the activity shows **Used skill app-generation**. If the activity is not visible, you might need to expand the activity in the chat so that Code shows you what it's doing behind the scenes.
     ![Copilot Code showing the app-generation skill activity](../img/01.3-app-generation-skill-activity.png)
 
     Generation builds the source files and an interactive preview. These may become available before the agent finishes; you can inspect them while it continues working.
