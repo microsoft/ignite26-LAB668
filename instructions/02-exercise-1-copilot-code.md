@@ -94,7 +94,9 @@ The prompt describes the desired app, its behaviors and accessibility, fictional
 
     ![Open the generated LAB668 Onboarding app](../img/01.4-open-lab668-onboarding.png)
 
-    If **Output** is not ready yet, wait and check again. **Files** is hidden while the preview is open; this does not mean generation is unfinished. Close the preview as described below to see **Files**. **Optional:** Open [Build and publish apps to Copilot Managed Runtime](https://learn.microsoft.com/copilot/code/use-code#build-and-publish-apps-to-copilot-managed-runtime) in a separate browser tab while you wait, then switch back to the Copilot Code browser tab.
+    If **Output** is not ready yet, wait and check again. **Files** is hidden while the preview is open; this does not mean generation is unfinished. Close the preview as described below to see **Files**.
+
+1. **Optional:** Open [Build and publish apps to Copilot Managed Runtime](https://learn.microsoft.com/copilot/code/use-code#build-and-publish-apps-to-copilot-managed-runtime) in a separate browser tab while you wait, then switch back to the Copilot Code browser tab.
 
 1. **Optional:** Expand the app by selecting the expand icon highlighted at the upper-right of the Preview pane.
 
