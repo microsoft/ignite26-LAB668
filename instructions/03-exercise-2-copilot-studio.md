@@ -4,15 +4,21 @@
 
 Copilot Studio supports enterprise agents, workflows and now apps. This exercise specifically uses **app creation**, not agent or workflow creation.
 
+### Get started
+
 1. Open +++https://copilotstudio.microsoft.com/+++.
 1. Select **App** from the homepage.
     ![Select the App card](../img/02.0-select-app-card.png)
 
-1. Type +++Create LAB668 Onboarding - Studio as a managed app.+++ Press **Shift + Enter** to insert a new line without sending the prompt. Then copy the entire **App brief text** block below and paste it into the same prompt. Copy the entire **JSON demo data fixture** block and paste it after the brief. Copy only the contents of each block, not the backticks. Create a separate app rather than importing a previous exercise's app.
+### Prepare the prompt
 
-    **App brief text**
+Create a separate app rather than importing a previous exercise's app. The prompt describes the desired app, its behaviors and accessibility, fictional data and storage boundaries, and publishing expectations.
 
-    ```
+1. Copy the entire prompt below and paste it once into the Copilot Studio prompt box. Copy only the contents of the block, not the backticks.
+
+    ```text
+    Create LAB668 Onboarding - Studio as a managed app.
+
     Create a supported interactive managed app for this lab, not a static HTML
     page, agent, or workflow. Use the exercise's LAB668 Onboarding title.
 
@@ -31,11 +37,7 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
     Prepare the app for the entry point's supported Copilot Managed Runtime
     publish/deploy path. Do not treat a preview or source-code update as a
     confirmed hosted deployment.
-    ```
 
-    **JSON demo data fixture**
-
-    ```json
     [
       {
         "id": "T1",
@@ -67,11 +69,17 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
     ]
     ```
 
-    Once the brief and JSON data are both in the same prompt, send it to Copilot Studio.
+1. Review the complete prompt, including all four fictional tasks, then send it to Copilot Studio.
 
     ![Prompt input](../img/02.1-prompt.png)
 
-1. Generate and preview it. Run the standard preview test; request at most one focused correction.
+### Build and test the app
+
+1. Allow Copilot Studio to generate the app. Generation builds the source files and an interactive preview, which may appear before the agent finishes. You can inspect the preview when it becomes available, but wait until initial generation finishes before requesting a correction or publishing.
+
+    **Optional:** Open [Create an app in Microsoft Copilot Studio](https://learn.microsoft.com/microsoft-copilot-studio/apps-experience/create-app) in a separate browser tab while you wait, then switch back to the Copilot Studio browser tab containing the app editor and conversation.
+
+1. Once generation finishes, test the interactive preview. Confirm the original four tasks appear, with a total of four, one **Complete**, one **In progress**, and two **Not started**. Test status filtering and editing, restore any changed status, and confirm an empty task name cannot be added. Check that the controls can be used with the keyboard. Request at most one focused correction, and wait for it to finish before continuing.
     ![Generate and preview](../img/02.2-generate-and-preview.png)
 
 1. Confirm “Fictional lab data” is visible and no enterprise connection was required. Keep the app self-contained for this exercise.
@@ -86,7 +94,11 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
 
     Confirm both tasks appear in the list and the total task count increases by two. These preview edits may reset when you open the app.
 
-1. Select the **Publish** button on the top right to host the app in Copilot Managed Runtime. Now you can review the intended audience and capture the app link.
+### Publish the app
+
+1. Select the **Publish** button on the top right to host the app in Copilot Managed Runtime. Review the intended audience and capture the app link, but do not share the app with others in this lab.
+
+    Publishing makes the requested version separately available; a working preview alone does not confirm publication. Wait for publishing to finish before using the app link to verify this version.
     ![Share and play](../img/02.3-share-button.png)
 
 1. While publishing completes, review the default **full-screen** layout. Select the **Device preview** icon (a phone and monitor) in the toolbar once to switch to the **Tablet** layout, then select the same icon again to switch to the **Mobile** layout. Inspect each layout and confirm the app remains clear and usable at each size.
@@ -95,9 +107,11 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
 
     ![App in the mobile preview layout](../img/02.5-mobile-preview.png)
 
-1. Once publishing finishes, open the app using the link in a new tab or click play.
+1. Once publishing finishes, open the app using the link in a new browser tab or click play. Confirm the published checklist and task interactions work as expected.
 
-1. Return to authoring and request this final revision:
+### Add and publish light/dark mode
+
+1. Switch back to the Copilot Studio browser tab containing the app editor and conversation. Request this final revision:
 
     ```
     Keep the existing app and fixture unchanged.
@@ -105,12 +119,16 @@ Copilot Studio supports enterprise agents, workflows and now apps. This exercise
     Preserve all existing interactions.
     ```
 
-1. Preview the revision, publish it, and reopen the app to confirm the switch works in both modes.
+1. After the revision finishes, preview it and confirm the switch works in both modes and the checklist interactions still work.
 
-1. Return to authoring and select the **Code view** icon (`</>`) to inspect the generated code. Open the **src** folder and select **App.tsx** to view one of the generated files. Feel free to inspect the other source files. To switch back to the app view, select the **App preview** icon.
+1. Select **Publish** again and wait for publishing to finish. Reopen or refresh the published app in its browser tab to confirm the switch works in both modes.
+
+### Inspect the generated code
+
+1. Switch back to the Copilot Studio browser tab containing the app editor and conversation. Select the **Code view** icon (`</>`) within the editor to inspect the generated code. Open the **src** folder and select **App.tsx** to view one of the generated files. Feel free to inspect the other source files. To switch back to the app view within the same editor, select the **App preview** icon.
 
 ## Exercise end
 
-You built and published a separate app with Copilot Studio, then added a light/dark mode switch as a revision. You reopened the app to confirm the switch works in both modes.
+You built and published a separate app with Copilot Studio, then added a light/dark mode switch as a revision. You reopened the app to confirm the switch works in both modes and inspected its generated source in **Code view**.
 
 Select **Next** to continue to the following section.

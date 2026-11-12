@@ -4,6 +4,8 @@
 
 Build, publish, and then revise the same app in this exercise.
 
+### Get started
+
 1. Open Microsoft Edge (a shortcut is on the desktop).
 1. Go to +++https://copilot.cloud.microsoft/home+++
 1. Sign in using the username and Temporary Access Pass below.
@@ -16,12 +18,15 @@ Build, publish, and then revise the same app in this exercise.
 1. Select the **Code** button shown in the screenshot.
     ![Select the Code button](../img/01.1-select-code-button.png)
 
-1. In the Copilot Code prompt box, type +++Create LAB668 Onboarding - Code as a managed app+++. Press **Shift + Enter** to insert a new line without sending the prompt.
-1. Copy the entire **App brief text** block below and paste it after the request in the same prompt. Copy the entire **JSON demo data fixture** block and paste it after the brief. Copy only the contents of each block, not the backticks. Do not send the prompt yet.
+### Prepare the prompt
 
-    **App brief text**
+The prompt describes the desired app, its behaviors and accessibility, fictional data and storage boundaries, and publishing expectations.
 
-    ```
+1. Copy the entire prompt below and paste it once into the Copilot Code prompt box. Copy only the contents of the block, not the backticks.
+
+    ```text
+    Create LAB668 Onboarding - Code as a managed app
+
     Create a supported interactive managed app for this lab, not a static HTML
     page, agent, or workflow. Use the exercise's LAB668 Onboarding title.
 
@@ -40,11 +45,7 @@ Build, publish, and then revise the same app in this exercise.
     Prepare the app for the entry point's supported Copilot Managed Runtime
     publish/deploy path. Do not treat a preview or source-code update as a
     confirmed hosted deployment.
-    ```
 
-    **JSON demo data fixture**
-
-    ```
     [
       {
         "id": "T1",
@@ -76,23 +77,37 @@ Build, publish, and then revise the same app in this exercise.
     ]
     ```
 
-    Once the request, brief, and JSON data are all in the same prompt, send it to Copilot Code.
+1. Review the complete prompt, including all four fictional tasks, then send it to Copilot Code.
 
     ![Enter the managed-app prompt in Copilot Code](../img/01.2-enter-managed-app-prompt-in-code.png)
 
-1. After sending the prompt, confirm the activity shows **Used skill app-generation**. Allow generation to finish, then confirm you received an interactive app rather than only an explanation or static document, and observe its authoring preview. If the activity is not shown, ask the facilitator how to proceed; do not try an undocumented command to trigger it.
+### Build and explore the app
+
+1. After sending the prompt, confirm the activity shows **Used skill app-generation**. If the activity is not shown, ask the facilitator how to proceed; do not try an undocumented command to trigger it.
     ![Copilot Code showing the app-generation skill activity](../img/01.3-app-generation-skill-activity.png)
 
-1. If the app doesn't open to the side, select **Open** at the bottom of the chat conversation or select **Open LAB668 Onboarding** under **Output**.
+    Generation builds the source files and an interactive preview. These may become available before the agent finishes; you can inspect them while it continues working.
+
+1. When the app is available under **Output**, select **Open LAB668 Onboarding** to inspect the preview while generation continues. If the app opens to the side automatically, use that preview. You can also select **Open** at the bottom of the chat conversation when available.
     ![Open the generated LAB668 Onboarding app](../img/01.4-open-lab668-onboarding.png)
+
+    If **Output** or **Files** is not ready yet, wait and check again. **Optional:** Open [Build and publish apps to Copilot Managed Runtime](https://learn.microsoft.com/copilot/code/use-code#build-and-publish-apps-to-copilot-managed-runtime) in a separate browser tab while you wait, then switch back to the Copilot Code browser tab.
 
 1. **Optional:** Expand the app by selecting the expand icon highlighted at the upper-right of the Preview pane.
     ![Expand the app in the Preview pane](../img/01.5-expand-app-preview.png)
 
-1. When you're ready to return to the conversation, select the restore-size icon highlighted below to return the app canvas to its previous size.
+1. If you expanded the preview, select the restore-size icon highlighted below to reveal the conversation and return the app canvas to its previous size.
     ![Restore the app canvas to its previous size](../img/01.6-restore-preview-size.png)
 
-1. Run a standard preview test, ensuring everything is working. Then request this focused task-form change:
+1. Open **Files** when it becomes available. Locate the generated source files and open the relevant app source. Look for the checklist interface and the fictional tasks from the prompt; generated filenames and the way the data is represented may vary. Inspect only; no code edits are required. Then return to the app preview and conversation.
+
+1. Before requesting any revision or publishing, wait until the initial generation has finished. Confirm you received an interactive app rather than only an explanation or static document.
+
+### Improve and test task entry
+
+1. In the app preview, confirm **Fictional lab data** is visible and the original four tasks appear. Check that the total is four, with one **Complete**, one **In progress**, and two **Not started**. Test status filtering and editing, restore any changed status, and confirm an empty task name cannot be added. Check that the controls can be used with the keyboard.
+
+1. In the Copilot Code conversation, request this focused task-form change:
 
     ```
     Keep the existing app and fixture unchanged.
@@ -119,12 +134,18 @@ Build, publish, and then revise the same app in this exercise.
 
     Confirm both tasks appear in the list and the total task count increases by two. These preview edits may reset when the app is reopened.
 
-1. Select **Publish** in the Preview pane. Wait for the **Your app is published** confirmation.
+### Publish the app
+
+1. Select **Publish** in the Preview pane. Wait for the **Your app is published** confirmation before opening the published app.
+
+    Publishing makes the requested version separately available through Copilot Managed Runtime; a working preview alone does not confirm publication. **Optional:** Open [What is Copilot Managed Runtime](https://learn.microsoft.com/en-us/microsoft-365/managed-apps/) in a separate browser tab while you wait, then switch back to the Copilot Code browser tab to check the confirmation. Publishing is not sharing; do not share the app with others in this lab.
 
 1. In the publishing confirmation, select **Open app**. Use the same lab account if needed, and confirm the published app looks and works as expected.
     ![Select Open app in the publishing confirmation](../img/01.9-open-in-browser.png)
 
-1. Return to authoring and request this small change:
+### Update and republish
+
+1. Switch back to the Copilot Code browser tab containing the conversation. If the preview is expanded, use the restore-size control to reveal the conversation. Request this small change:
 
     ```
     Keep the app and fixture unchanged. Change the visible app title to
@@ -137,13 +158,15 @@ Build, publish, and then revise the same app in this exercise.
 
 1. Confirm the new title and sentence in preview.
 1. In the Copilot Code conversation, type +++Publish it live+++ and send the prompt to publish the app with the latest changes. Wait for confirmation that publishing has completed.
-1. Reopen or refresh the app independently of authoring. Confirm “Code v2” and the new sentence appear, then test filtering and adding a task again.
+1. Switch to the browser tab containing the published app and reopen or refresh it. Confirm “Code v2” and the new sentence appear, then test filtering and adding a task again.
     ![Refresh after publish](../img/01.11-refresh-after-publish.png)
 
 1. Check the title.
     ![Confirm changes](../img/01.12-confirm-changes.png)
 
-1. Return to authoring and request this final revision:
+### Add and publish completion progress
+
+1. Switch back to the Copilot Code browser tab containing the conversation. If the preview is expanded, use the restore-size control to reveal the conversation. Request this final revision:
 
     ```
     Keep the existing app and fixture unchanged.
@@ -157,10 +180,10 @@ Build, publish, and then revise the same app in this exercise.
 1. In the Copilot Code conversation, type +++Publish it live+++ and send the prompt to publish the app with the latest changes. Wait for confirmation that publishing has completed.
     ![Publish it live prompt sent in the Copilot Code conversation](../img/01.14-publish-progress-revision.png)
 
-1. After the revision is published, reopen the app. Verify the progress percentage updates after a status change and a new task, and confirm the existing **New task** modal and **Cancel** option still work.
+1. After the revision is published, switch to the browser tab containing the published app and reopen or refresh it. Verify the progress percentage updates after a status change and a new task, and confirm the existing **New task** modal and **Cancel** option still work.
 
 ## Exercise end
 
-You built and published an app with Copilot Code, updated its title, moved task creation into an accessible **New task** modal, and added a completion progress bar. You reopened the app to confirm the percentage updates and task interactions work.
+You built and published an app with Copilot Code, inspected its generated source in **Files**, updated its title, moved task creation into an accessible **New task** modal, and added a completion progress bar. You reopened the app to confirm the percentage updates and task interactions work.
 
 Select **Next** to continue to the next exercise.
