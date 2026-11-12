@@ -94,17 +94,27 @@ The prompt describes the desired app, its behaviors and accessibility, fictional
 
     ![Open the generated LAB668 Onboarding app](../img/01.4-open-lab668-onboarding.png)
 
-    If **Output** or **Files** is not ready yet, wait and check again. **Optional:** Open [Build and publish apps to Copilot Managed Runtime](https://learn.microsoft.com/copilot/code/use-code#build-and-publish-apps-to-copilot-managed-runtime) in a separate browser tab while you wait, then switch back to the Copilot Code browser tab.
+    If **Output** is not ready yet, wait and check again. **Files** is hidden while the preview is open; this does not mean generation is unfinished. Close the preview as described below to see **Files**. **Optional:** Open [Build and publish apps to Copilot Managed Runtime](https://learn.microsoft.com/copilot/code/use-code#build-and-publish-apps-to-copilot-managed-runtime) in a separate browser tab while you wait, then switch back to the Copilot Code browser tab.
 
 1. **Optional:** Expand the app by selecting the expand icon highlighted at the upper-right of the Preview pane.
 
     ![Expand the app in the Preview pane](../img/01.5-expand-app-preview.png)
 
-1. If you expanded the preview, select the restore-size icon highlighted below to reveal the conversation and return the app canvas to its previous size.
+1. If you expanded the preview, select the restore-size icon highlighted below to reveal the conversation and return the app canvas to its previous size. Restoring the size does not close the preview or reveal **Files**.
 
     ![Restore the app canvas to its previous size](../img/01.6-restore-preview-size.png)
 
-1. Open **Files** when it becomes available. Locate the generated source files and open the relevant app source. Look for the checklist interface and the fictional tasks from the prompt; generated filenames and the way the data is represented may vary. Inspect only; no code edits are required. Then return to the app preview and conversation.
+1. To inspect the source, close the app preview pane by selecting its upper-right **X**, highlighted below. **Files** is visible only when the preview pane is closed. Close the preview, not the browser tab.
+
+    ![Close the app preview using the X at the upper-right of the preview pane](../img/01.6a-close-app-preview.png)
+
+1. In **Workspace** on the right, select **Files**.
+
+    ![Files highlighted in Workspace after the app preview is closed](../img/01.6b-workspace-files.png)
+
+    Locate the generated source files and open the relevant app source. If the source files are not ready yet, wait and check again. Look for the checklist interface and the fictional tasks from the prompt; generated filenames and the way the data is represented may vary. Inspect only; no code edits are required.
+
+1. Reopen the app by selecting **Open LAB668 Onboarding** under **Output** or **Open** in the conversation, then continue with the app preview and conversation.
 
 1. Before requesting any revision or publishing, wait until the initial generation has finished. Confirm you received an interactive app rather than only an explanation or static document.
 
