@@ -6,6 +6,7 @@ In this lab, you used Copilot Code and Copilot Studio to create separate onboard
 
 - In **Copilot Code**, you added a **New task** modal, updated the app title, and added a completion progress bar. You published the changes and reopened the app to check them.
 - In **Copilot Studio**, you created and tested another app, explored device previews, and added a light/dark mode switch.
+- In both experiences, you inspected the generated source code without needing to edit it.
 - You worked with session-local data, so changes to the checklist may reset when an app is reopened.
 
 Finished early? Feel free to extend your apps or keep exploring how they work.
