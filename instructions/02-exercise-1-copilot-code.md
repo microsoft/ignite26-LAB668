@@ -15,13 +15,13 @@ Build, publish, and then revise the same app in this exercise.
 
     If a welcome screen appears, click **X** to close it and continue.
 
-1. **Optional:** To give yourself more screen space, select the sidebar toggle icon at the top-right of the left sidebar, highlighted below, to collapse the sidebar. Select the same icon again to expand it whenever you need the navigation.
-
-    ![Sidebar toggle icon highlighted at the top-right of the left sidebar](../img/01.0-toggle-sidebar.png)
-
 1. Select the **Code** button shown in the screenshot.
 
     ![Select the Code button](../img/01.1-select-code-button.png)
+
+1. **Optional:** To give yourself more screen space, select the sidebar toggle icon at the top-right of the left sidebar, highlighted below, to collapse the sidebar. Select the same icon again to expand it whenever you need the navigation.
+
+    ![Sidebar toggle icon highlighted at the top-right of the left sidebar in Code](../img/01.0-toggle-sidebar.png)
 
 ### Prepare the prompt
 
