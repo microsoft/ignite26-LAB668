@@ -27,7 +27,7 @@ Build, publish, and then revise the same app in this exercise.
 
 The prompt describes the desired app, its behaviors and accessibility, fictional data and storage boundaries, and publishing expectations.
 
-1. Copy the entire prompt below and paste it once into the Copilot Code prompt box. Copy only the contents of the block, not the backticks.
+1. Copy the entire prompt below and paste it once into the Copilot Code prompt box. Use copy and paste, don't use the type button.
 
     ```text
     Create LAB668 Onboarding - Code as a managed app
