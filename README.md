@@ -13,7 +13,7 @@
 
 Get hands-on with Copilot Managed Runtime and learn how to bring apps built with Microsoft and third-party tools into a managed enterprise environment. You’ll deploy and run an app, explore different entry points, and see how the runtime provides the connectivity and management needed to take AI-generated code from prototype to enterprise use.
 
-**Delivery links:** Pending — session and slide deck links are not available yet.
+**Delivery links:** [Slide deck](slides/LAB668-Host-apps-from-anywhere-with-the-new-Copilot-Managed-Runtime.pptx).
 
 ### 🚀 Getting started
 
