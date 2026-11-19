@@ -98,7 +98,7 @@ The prompt describes the desired app, its behaviors and accessibility, fictional
 
     ![Open the generated LAB668 Onboarding app](../img/01.4-open-lab668-onboarding.png)
 
-    If **Output** is not ready yet, wait and check again. **Files** is hidden while the preview is open; this does not mean generation is unfinished. Close the preview as described below to see **Files**.
+    If **Output** is not ready yet, wait and check again. **Workspace** is hidden while the preview is open; this does not mean generation is unfinished. Close the preview as described below to see **Workspace**.
 
 1. **Optional:** Open [Build and publish apps to Copilot Managed Runtime](https://learn.microsoft.com/copilot/code/use-code#build-and-publish-apps-to-copilot-managed-runtime) in a separate browser tab while you wait, then switch back to the Copilot Code browser tab.
 
@@ -106,17 +106,17 @@ The prompt describes the desired app, its behaviors and accessibility, fictional
 
     ![Expand the app in the Preview pane](../img/01.5-expand-app-preview.png)
 
-1. If you expanded the preview, select the restore-size icon highlighted below to reveal the conversation and return the app canvas to its previous size. Restoring the size does not close the preview or reveal **Files**.
+1. If you expanded the preview, select the restore-size icon highlighted below to reveal the conversation and return the app canvas to its previous size. Restoring the size does not close the preview or reveal **Workspace**.
 
     ![Restore the app canvas to its previous size](../img/01.6-restore-preview-size.png)
 
-1. To inspect the source, close the app preview pane by selecting its upper-right **X**, highlighted below. **Files** is visible only when the preview pane is closed. Close the preview, not the browser tab.
+1. To inspect the source, close the app preview pane by selecting its upper-right **X**, highlighted below, to reveal **Workspace**. Close the preview, not the browser tab.
 
     ![Close the app preview using the X at the upper-right of the preview pane](../img/01.6a-close-app-preview.png)
 
-1. In **Workspace** on the right, select **Files**.
+1. In **Workspace** on the right, under **Artifacts**, select **Source code · LAB668 Onboarding**, highlighted below. Do not select **Session files** under **Files**.
 
-    ![Files highlighted in Workspace after the app preview is closed](../img/01.6b-workspace-files.png)
+    ![Source code artifact for LAB668 Onboarding highlighted under Artifacts in Workspace](../img/01.6b-workspace-files.png)
 
     Locate the generated source files and open the relevant app source. Browse the generated code to see what was created, then continue with the remaining steps.
 
@@ -212,6 +212,6 @@ The prompt describes the desired app, its behaviors and accessibility, fictional
 
 ## Exercise end
 
-You built and published an app with Copilot Code, inspected its generated source in **Files**, updated its title, moved task creation into an accessible **New task** modal, and added a completion progress bar. You reopened the app to confirm the percentage updates and task interactions work.
+You built and published an app with Copilot Code, inspected its generated source through the **Source code** artifact in **Workspace**, updated its title, moved task creation into an accessible **New task** modal, and added a completion progress bar. You reopened the app to confirm the percentage updates and task interactions work.
 
 Select **Next** to continue to the next exercise.
