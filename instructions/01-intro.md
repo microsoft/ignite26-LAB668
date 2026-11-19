@@ -41,3 +41,7 @@ Times are elapsed minutes from the start of the session.
 1. If needed, log in to the Virtual Machine using the password +++@lab.VirtualMachine(LAB668).Password+++
 
    > **Note:** To ensure text is entered accurately, avoid interacting or clicking in the VM until the text has finished being typed.
+
+1. Before opening Microsoft Edge in Exercise 1, close the **Global Secure Access** window if it appears by selecting the **X** in the upper-right corner. You don't need to sign in to Global Secure Access.
+
+   ![Global Secure Access window showing Signed out, with the X close button in the upper-right corner](../img/00.1-global-secure-access.png)
